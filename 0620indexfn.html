@@ -1,0 +1,1520 @@
+{\rtf1\ansi\ansicpg950\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset136 PingFangTC-Regular;\f2\fnil\fcharset0 AppleColorEmoji;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red71\green138\blue206;
+\red141\green213\blue254;\red203\green203\blue202;\red109\green109\blue109;\red194\green125\blue100;\red212\green212\blue212;
+\red167\green197\blue151;\red112\green192\blue130;\red109\green115\blue120;\red184\green113\blue248;\red245\green123\blue47;
+\red54\green192\blue160;\red163\green79\blue131;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c34146\c61677\c84338;
+\cssrgb\c61545\c86704\c99884;\cssrgb\c83320\c83320\c83112;\cssrgb\c50307\c50306\c50181;\cssrgb\c80772\c56796\c46790;\cssrgb\c86465\c86464\c86248;
+\cssrgb\c71035\c80830\c65726;\cssrgb\c50437\c78684\c58115;\cssrgb\c50336\c52696\c54531;\cssrgb\c77746\c54642\c98035;\cssrgb\c97756\c56070\c23668;
+\cssrgb\c23989\c78963\c69075;\cssrgb\c70673\c40065\c58366;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12720\viewh7240\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+<!DOCTYPE html>\
+\pard\pardeftab720\partightenfactor0
+\cf2 <html lang="zh-Hant">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>
+\f1 \'b6\'57\'ad\'c8\'aa\'ba
+\f0 AI
+\f1 \'af\'ab\'a7\'55\'b2\'7a
+\f0 \'85Gemini
+\f1 \'a4\'c9\'af\'c5\'bb\'50\'ac\'a1\'a5\'ce
+\f0  
+\f2 \uc0\u10024 \u55358 \u56598 
+\f0 </title>\
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAIABJREFUeF7tnQd4HNXZ738zs32lVe+SZRVLLrj3QrHpPbQQSEhCIAktIYHQQg2dAAlw4QYCCaGGZnoz1RQ3bLnJVbK6rN612r4z954zu5JsIDFfDOR7HgYba9vszPt/y/8t50h542aj0DCo57vjG5eAojBWMQyjEP43AGAAyjcupK/5C/83AfA1i+LbOf13AHw7ch/+1u8A+A6Ab1kC3/LXf2cB3wHwLUvgW/767yzgOwC+UAIGhqD9nzviT47kA8rwj/8rc4T/NgsYEbyu6zS1DLF1Zy8NzV66egIEglFsVo3UFAdj8twcUJ5MyViPTNCk+EfQ+JYVe5+//r8JAFP4kUiU9ZXd/PPlWjZs6aavP4TPHyYY1tGjBqqqYLWquBwWEhOsTJ+SxhknFrFwVrYEQBkFgoEhgRHnNZ/+qlYSz77FmWKHONfwqb7q+T4HzH8DACNaP+QLcfXt63jp7SbC4ShRXQdDQfxjtxiku3UMXaEnoBCMKqiKIgFJcGuccHgBv/3FZPJyEoYNIRzW+eCTBtZt7OAnp08kP09Yy74co12g+FnB7wvjC0RwODRcLosEWv73n1ndtwGAQSSiMzAYIiXJLlVTPK7Y3MXPL1tBR1cABQOHxWBsSpijyrwcXjrI1OwuVIZQDCF8FzXd6SxvTOb5LQk09CoMhRXmTsvkhkunMe2AdAlMU/MAF172IR+vbePJBw7nuCOKUFT1XyBgEI0a+PwRmnZ7Wb66jRVr29hY2UNXb0i+pmoKWel25k5P5+jFBSyamy3vQ1jl/wCMbxoAU7Nq63u55c9reeCOxWgWjQ9XtHDFretobfWhqQZl6WFOm9LJKVPqSHfuQIk2oEYHwUgCIxUMJ6CBlkeQ8Ty2MYPH19up67UwsTyF266exawpGdKKln/aROWObk7/Xhl5OYlS+EY4BKEgiltYiwDEdDBDvohUhJffbuCtD5vp7QthtVixahYsmiaVxTB0wpEIIXEO4IAJyfz0tFIOPTCPjDSnBP4rHN80AKZDbu8c4o136znz1HI2bu3hmjvWU7m9R752YHGA3yyqZW7pVhRqUKL9qIFW05EL2zCSUPRiMNzmYxKIajNYszuLW5a72NhqYcbUdB679yDSUgRQQrwm8EI0imEQffUxlIFelON+hJqaKcXf0xfgiaW7ePqlOpp2D+Gyu0hJ8OBJSMTtcOGw2aXLC0cj+IJ+BoeG6Bnspd87gMdj4XtHFfLzH5ZTVJCI+i+tbA94vgUApEQMdAw6uwPccf9mnn2ljnBEZ0p2mLtPqGLiuB0owa2ovt0oUZ8UsxlOxWcVDL0AxSgALLEIm4tumcNH9XauftdNba/GWacWc8fVc6RGbuvXWdZmYFHgZ2MN7Lf/GqWnHX53F1p+MR1dPm67bzMvLmtEj6jkpGWSnZpBcoIHTTNd1mi9FoAJQAd9Xtq6O2jqbEGz6By9OI8bLp1BVoZrXwP+twOAEKdgNO98vJtL//AZ3T0BHFaDl8/q5IDy5SiRarTBXaBHRqiHEEGclOgO0CcBCTHLSMSwziaiJ3P9+26e3GzH4bLx6cvHYvU4uHuHzlONCooBF5WG+Y2nDQI+GFPCYACuvmM9r7zVBIpKeUExWanp2C1WE+846/lCEqVId9TU0Uptaz2qqnPOGeO49rfTY67t3zqjrxsAY0RowzpkugMR6P7yj23c+eAW+finM4PcfMSbKOVpWHb8HQwhfJPfCxYipRfjgoahouhTABETBJxusExBUbJp91s48tEkuoMq1/52MoedMIGrNhu836nKUxycHuT5A+0oqESiOjffu5GuriAzx08lIzlFKoOGTioDHBxdxazwJpLop04p5Fnr8TQqOSPuUGqHiVLf4CBb6rfjDfg588Sx3H3D/G8LgBFGUV3Xz/sft1BR2UX/YIgEl4XSsR6ys5y89EYjW6v75MVnuHSW/rCeosPAWnFDzGr2bkHGHwtXJACYAobHzLCUArDOlM+LICviwCMbnEwsS+Gdfx6Joim0+QycVoNUm2oyscYBrr9zA8tXdVCWX8LY7HwEREkMMDe6mcPDH5Nm9KJI2MCvuHjFegTvaIskACOlkhEt2VC9lY7eTrIznax89TicDsu/y873vwUITe8bCPLUC7t48MkddHQFUTQVxWmVHFwPhCAsbsq8MXFMy4ry15PXkrs4C8vaG0x3s8cx+rECuh30A8BIADUFwzIHBRH4TG1c2WTj5KeSmDQ+hWVPH0FPb4CObj+lxUk4bBaGfGEeeWonf3p4GxlJmYwvLMVqsVCsN3F49BNmRjZjky7QPKKKyma1nJcsR9Gk5koFGRZ7zArE46qmOurbG3E6ND556Rhys9zfPADRqM7f/rlTshuvL4olNwnHhFws6R4JRGTQT7iph8DOFvCFpDeZXxDl/xz/KdkL07FsuuPfRi5dz6C6YxrFqRas9lmgpI1IxDBoGrQw6y/JTDsghTefOIrHn93BP1+q5oHbD5IgVG7rkUnfQL+FiUVleNyJTNG3cVz4A8bp9XHvL11dv5LAGnUqK7WZNCj5I3RIgiDcavxyFXbtbqS2pR67XeXDF46iMC/xmwbAkEWz8y5fyaeftaLlp5J66mwsmckoVovpMA2IDvjx72hh8P3t6D1eJmXq/P2UteQdlIRl462jABCxQ2XplhkcM3EbLs0vNa83UMrlbxzHnce6SHVlSUHElF8G5d1eC7MfTOXU4/K598aFPP1iFS+/Wced1y8gPz+Bi65cxdvL2ynLLyYnI5uDjAqOD79HZrQTRVqfQgAbm7SJrFBnUqMUMqSYOYUQeDw4j6AunlfY0VhLQ3sTbpeF1a8fR1qy45sHYNvOXn59zSo2V/WRffHhWPMzTConyfOIbI1IFO/aGvpf20CaPcxLP6yh6JAI1k0CgJi/F97GULnk1dO57LD3aOlzE4o4SHV5iDKb8RmlWGQmK+QeyxQMWNuicepz6fz9T/NZsigf71BYup20VCer1rXxk4s/JTkhjckl4zlUqeD40Huk6d2AShSVGnUMy7SD2aWOZVBxo4uYEy/sKYYsh5i3M5ydyMfrq7bQ2dfN1EkpvPH4kVg0EZ/+ZWa8v2OAwZr1HfzuxjVUtwbJv/VUiMYUPw7CsKeGyICPvjc3EK1s4O2fdlI+dT2WpqdGIWXeeFQGPYX3dk3mnk+O4vIDK1lcNgNVyYhpv3hdCMN8/w3vOXh8WxLr3zlRliHqGwc45ZgSrDaFqYe9TjCgMHvCNJZYd3Ba+HVSjX5pOQOqi6WWo1mlziIskrwYGY0l4Wbwj1nIMOCx++ns72VbfRW+kJ/brpjO2T+YsC/F1/0PwI7qPi66ZhWV1f0U3Hgy2Gym54klNKPZg6EbDHywlYH3tnDjoUP8bPYbWBSRiA2MWEHMbKRoJeMRwi5BVc4A0ke5AyEJXX7PgY+kEElI4vmHFvOXRytZNC+XQw/M59o7KnhiaR0TC4s5IcvPGeFXJNMZVFys1qbxpuUwvILKipMMC9uUsADXdHWiAmswa4adrdtDDHkNguEwO5tqaOlqJy/XyfvPHIXHY//maajQCsE4fnnFCj5Z04bniAPwHDoZRG1kLxcUd0YiGPe+so6xRh8fnNuMlrUGS9vrI9ojlW50AiSgKAf1dCBtxJ5i7m33gMoxj3v4460HM31SOlt2dHHwwnw++LSF396wFkV3c8Y4Dz+IvEGCMcR2rYTl2nwa1bwYmCMXqhu67E/ouiiNmwALBXC5VC76ZSqvvemnqtpPQ1sLDR3NJCao3HrFNE7IaEDJGoM6Zty/A2F/WUC8fh4lGvXy4GOV3P1QE37FSsqJM3BNGWMG4Th9G86qwPCH6HpuFeHtzTx66iCHTq9EG3wSJeod8Z+j6wHSmtJQtHNAsBJpUiO88PZPXCytSeLT107Cbtek1m6r6uPKW9axZecQJ0ws5EfqhwQNK+u0yVRpxQQMkRmD6MINBf34Aj78wQDBUFBqtyg3RPWo/C4RbEVlNCfbjm/IxsDQEO09XXg8Gmd/fxznnzEWx4VL4OgzsZx1yTcBgCl8gwCGvhk9/BmdHR1cflsS76zIxpLkwj2nmITZxWgpiXv0es0yg4F3VTX9b2+iPNHHG+e04rS+hhpcLa0g7tfN0kBMzXUNQ7sARRlnCiV2nqZ+C794NYFTfzyLc84YL91FW4ePO/9SyQtvNDCloIDTMjoYNBIks+lXEiV2voCfrv5e+rwDDMWFHxb1/6jpdFTTAQkDkI9jcTVe/xf3kJHm4PyflHPmiUV4Nr4HBSWoJZO+KQCE5n+G4f8bSqQGFAt1DT6ufeAw3l9VjuqwYC9IJfGgchxleTIfGM0cdW+Q9r++j96Ww4Xz/Vx9yHqU6LMoykCMa5vczzQcA0NXMTgU1XK0rIgKAYjjvlVOnq1N5tmHjyQvx83QUJi/P1PF/Y/uINGexrSSIlK1ML145Lm8viFZSOse6MUXDBCKhNHSHDjKUnAUerBkulATbSg2VdAxdF+ESKefYG0/vsouoj2ieWQmlJqqkpZqZ/L4VC6/YBJTJqabXbOvmwWJmzcYIBq6A8W/HpzTIFSFEthIv9fKE2/N4YGnF9E74EZ1WHHPKCT1e7MwFG044RXC8O9soevvy8l0R7n76AEOL3kLxXgHxYhixJom4mZlYU6mp2UY1tNQlUyJTH2fyu/fdXPsjxdy2nFF8safeaWG6/64gSF/mJnlk8lLz5KfD0fCMmlq7mwxGytuCwmLx5C0MBfrmESwq6aSiPqbZLnxUriwAgMjYkBIx7uhk94XqgjX9Q+XGkUvID3VLjtz3ztq7L/rDfznMUAAoBtNEgA1UCtTGCVcE8smFcmh61rTeeC5Rbz9yUR6+90oaR4yz16ENSM5xmqEAzboen4l/op6ZuTq3HVMOxPSnkUzNoritennZR82RlKiuSh6Odi/J93aExsdPLg9nftvXUhZSTKPP1fFzfdsQtfNz80on0Rmchq7Ozup3l1HwAhjzXeTdFQRyYcUgFuUn+NOzrQok3kJEmDS29HVqXhKYwxF6Xuznv7XdsUswtSPrAwnN1wyjeOPKMRi0UYll3v8uL8AaEcP3Y7ifVMUZ1GMcOzy4x7cIKpbWLN1LPf/cwFrthQSsKeTetIsnKU5YNGkEPVImI773yXS0suRZWGuW7KLIs+zqNTGTNm8bWkF0VLQs8B+Kh1DKn/40EWzNZfvn1DMeytaeeu93WDEgEPBJugwEDIi2IqTSDp0DIkH5aMmmTR5OPkzv2FYSqP4gglKPK+STDV2fxEd37oOev65k2BNr2RtAr7JE1K46bIZzJmWiRpr7IyIX75n/wBgGAH0yLMw9CBqtCVmjjGtibkMM4VXGfC5eOzVGTz+2lxa9bGkHDsFZ3keoggvbihY00bHIx+hhSOcOjnI1Ys3kel4GVVpHpGTaEcK7TfcGLZTWNlg5YfPJeCPxKUTC5qjxChu15qdQML8HJKOKcKaNzI9YQYY87OiUzdS3jGfl1YQP9doM9gDKwXf5i66/lZJqKZPkgdNUzj9hCKuvGgqmWlmqXyv46sBIIPdcA3cPJXwtYYufHMHevhVlMDbEO0FNRHUVBTsBEM99PQ0EwyFSUoI4kkI8sJ7k7nrsUNo00pJPWkm9jHp8kZDu3voeX4NoYYerBqcOyfA1Ydsw8oy0Jvk+dCzwUiRjRi/eiw3fuDi0QqTSg4LM+62Y885JqWTcmIpCQtyQJQIvtChfC4Jj93kaDvYS4ijKqOyhrS+g9Y/VaD3iQCtSFd013WzWbIwTwKyV3r8VQAwiEQNNm3t4OMVzRw0P4+pB2RK/ya9owjGhhdDWIDhIxCysHLdAGvW97K9up2evl7Jpe3WMEV53cyZ0kzd7nQeen4eSkkhaafOpn/VLmy7O0mKhKiv6pX+O8EGlx4cYNGYRlIsK2XtJ6Lb6fY7qRmYyDu7CvmgxoY3+MVuVjSyEubmknp6GbaSZGRjeJQYRhR6pLIzQniF2ZrJ1xdWdEZly3GnpejQ/2odnY9sliRDfO5nPyzjsgumkihuZs9j3wEQl9fTE+BH5y9j9cYuFs/L4a4bF1JUmDQcGMW5e/oDvPFuA48/X0tzmw+vNywTnJRkO5qq0NntJ6pH8CSGSPX48PltdPQnYy/PIm1wkOcfmImYAHno8Xr+/s96aWEJdgOXvPagBDpN9VOkeVkTzKUvaJGDW6N963BVSFFwz80h85dTsGY6MdR4iWHUu2M1JEMU2Yapw6iqYeyte3qeWO1JWH+8SDcK1Gh/hJarVxCs7ZXXX5jvZukjh5Gf/bn+wL4DIExWCO/Es15j7eZelizI5oE7DqZkbLI5IeAN8uo7DTzw6A5q6gfl2M786an84kdFHDQvjYQEEWgNwmH44JMO7nmkhg1bzCKY0BPdMLj8/FIuu7BEqs0zL+3m+jt30DcwEtAn2Hq5Nnk9rmiQjeEM7vBOJ2DEGYbg3KMn2hTsZWkU3DwfxWONeZxYJXNUIJW1tUAE3RdGTXZgaKbPjxevxI+iRSnOrYtqqehHyzGXmCUJI5EZ8ohdCZra/2YTXQ+uH57oeOGvi1k0N2fvvOCrARCJGKzb0Mbr79ZzzOFjmT45g+7eIJ+sbuPhp3dSub1X9nyLCl1cceE4jj8yB1XY5KhgGA8iPb0Rbv5zFU8ubYp7bh65cxonHpMpHz+9tIXr79xJvzdsmr8QlGowzt3JHE8zu3xprOsvQBdI73F+84Elz0PhbYvQhCaPyvqEoCQzFafs8JG2fheTBhvRQmHWtLjpWzQJ22zBzMzIm6v1ck3Sk7iVAH/zHsWnwUlE0IZBkPXBUaWS+ABBoGqQ1htWYfT5JLm4+bIZnPvD8f8JAKZWCDmIaYKWNh8r1rbzzCu1rK7oGjbFSeWJ3HT5BObOTJIux++P0tDsx+ePkpJsJT/HidUqhnANnn6xhUv/sCUW1w3eenI+s6ab85t/e6qRP9xdRTA0AqDQvPmptZyYsZV/tsxg02DeKGYxwg5EBpt71TwcE0SgjqNnAhOvxhreMLnrqrh8cj2zJkekojS1WLjsYSdVM6fgnJEpNfts93LO8bwu3dNrvrncP3g8PsM+4nhivmk4rMe8XLglSNs9mwlv2S2v8dwzy7jp8ln/CQCmeYvGxqeftfPC63V8uLKNUEghJSGZtp5O0lKsXHnROE4/MRebTaG3L8Lfn27ko9Wd9A+EyctxMX9WCgfNTSUU1nng0QbefL9tWH9Xv3kIxYVmoPq/j9Zx45+qpX/fw7wVnR/krmNd71hqfBmxetEIe1FcVrLPn0bi4WPizHJPXi+1XyFU18/RXZVccmg3SYmiyGMQjqg8/qLKH3eVkPGTiYi4MN1ax4We17EoUZ4fWsQ7welE4m4vlgsMN2viyZtI1Pt02h+twf/eNhmMTziqgIfuOPB/BkC81tLXH+Thp3by0tsNNO72kZ6URn5GjhTCuu2bOfKQTG69ajy52XaCQYPL/7CVl5e1yRmg+OF0aowvTUT0ArZWDSImmGWhS1HZueIwUpLNqYX7Hqnh5j9Xx+opMf8a07Z5KbXUDqXTEfKMYsWGzCXSz5hA2unlKHZRL9orpYoTejEG3x0ge8UWLpu1m3kzRMVcp61D5bI/KlTkjSft++PQFUM6uPHWZhkH6qNZeA3HF/TCYi4txooEwBEvdDzTiO+l9RKAow/L4293Hbz37Oi/jwEmxYSu3gCX/eEzqf3BEIzNKaQgMwen3UF1Uz11bTVc9LNiLvllsSz/v/1+J+dcskFq+t7Hnn1V81UxQthQcQQOu2lpf36ohlvvrR5VSxnlYhSdqLxZU8hxLpK0pICsc6egJdvwbekmMhjCWZKMlmJncG0rg6JPbdNIO7EMS14CocoO7K9vYkbGADkZKh+vhp1KGum/miETNTlTOhjGt7kDf00f0YEgikXFnu8hcV4OlnQXuuwRxO/QvEbx//CQSsezzfhfqkCJ6px6fCH/5+aFe69T2AcADIO2Th8//hXHbNnZK6eFywvHkZeZI0OR+PPxhnUkJAT443UTOHRRGrqucMrZa/l0bfewixjphMV9ciy9jDE+MfbdvP5wrFZDup0/P1TLrfdVyypj/BBvTU22Mb7Eg2gvbKvqp7PXtC5nQSLpp4xDSbDT9ex2rvp+WDKV+56LElE1Tpqrc8QChZZ2g5uf1kj7zVyigQjtD24gzTtIe1eEsGIl86RSUs+aiB6O0vVCFSyv59TDPcyb5iYzzYo/YLCiws9jL3WhHjKGjB9NwBCzRnLwVyTOZhCIDKi0P99M8OV1otHARWeP5+rfzPhqAAjX09bu4+LrV0umY7FYmVhcxg9OLGLuLCvVr/eS3+Pj5NfXUlKeyNMPzCQzw4LPrzP/mBW0tPulcASFs9lUObanCpsermQpBMNRAgFdVh2b1h+BzaqPAmAXWqwNOXask6suKueIgzNwu2JlA11h+add3PFANZU7TXcmEH/sXjfHHBYlHFJ5/2NBHaMcvURF06ISlLc/ULnwMTd55W4un93D0UsU6hsNDj19gKGQgqMwEYcGPzvUya/PTibBLc4rFCGeyVro7tW49KYGVpFA+i8moyRaTZcnPKHIiDsUOp9rIPT2evncndfO5senjotZy7DJ/AsLiA1Y3fWXSp58sYZQyKBsTClzSwo4fqGV+TPs6O+0EWrzU/TcJmZNT+b5h+fidBoy+C46wVxsIY70NDunHpfHgfNTSUwQq0tM7iyY0PrKAf7xbKNkVU0bjhwG4E8P1nDbfbtQVI2ZUzw8cvd0CvLscjFHb79JTdNSbXKOs3F3kGtv38Gy5R1EdFjxqovxJWIaQOQXIqYotHcZ+HwGuVlQsRlOvyjM909wcu1FKqkpZi954YmDVNWYTu34w1O57fcZZGeKOVZoaYvIfwXRyMq0yq5Y/6DGxbe3UFGYRdIxY2M1I8Fzob/KoO/57YRXVWGxKLz4yBLmTs/aVwBEwqTz+nuNsqTb3DpEfmYex04s46hEH1OSItgdKnjD0scLAGZOS+aFh+fgdEJff5SFx386DMCC2WncfcMkSovETP+eoVFYyy8vr+SdD9tprDgCu124IIM/PVgrY0Bqqo3XHpvHhDIX3iGdDz7t4r1POmW+ceTiDI5ekiFBXrWunytv3sa2Ki8rX3dSVhwzM0NlwxZ45Okwza06C2ZY2Lw9yrLlUc79oYNrL7bidpv0+pCTBtm600wSSgod/PT0FPJzLGyrCvHJmiG6e6NMLHNwxUW5jCu2ycbQux8F+O1bQ6T8fDKKy5ykIKrSuSqM95m1RGvbOHxRNrddNZuCXNH4/0LX88UWIACoqetnwffekvXxM4rTuG5arowFIvYKIY2u6Yj3i/Q7voJRGHlXIMqj1V38dXsbqkOTZutJsMiBVrFgb2BQuKUIfQMhGVinpbs4tSiFcR473cEod21tpS0cla8Fg9Hh5on4GuHCkjxikw4Nq6bg9ev09UfoHwjFriuuFQqpKQp2u0Jvv0HYaSf7ojm4Z2WiWMV2Awa6P8rgqzVoy6tJUEN09UN/8VjyfzMV/EE6Hq5E29FJqkcjL8uKZlFobQvR3hnCHzTIzbaQkWqlrkNnIC8LJWoQ2trMIbMzuPv6OeTnCLdtDi38i+PzFrCrto+F33sLRdE5vTid66flkmiTZbeRI150ij2Ta84NexsR4Lb3+LmrspVlu/ulEM3GtulrhevKcVm5dEo2JxcmS4BlSVq0NsM6m3oCpNqtrOr0cndlCz0B09xHm3L8kVnWiF/aCEmQZM1pw5puJ/vsSXgW5Mo26R5FwajB4KZeBrZ4saUnkLIwBUuSufgi6hUDV410vbCDSG/QXAuY6MQ1v4DkuRl4P67D3zSEVpKH0jtEaFMjJx9ZwC1XzKDVpVJus2IVBa6vCoDYRmDqoa9IrT4qP5kbp+eRIzrisYUJpksf2bNl9NOmtzcFKb/XUGnxBVnXOUSjN0QwqpNk05iQ4mBGurlPQ1BX6AoZVAVge1+Qre091PYP0jIUZCgsRsNN6ZoCHzWgOyzJkb0ehhsjioLzoBJyfjUdu8iswzrhwSiRIYiEwBDxU7o8UK2g2cDiUtBcYujXtGg5khhrN4Z7giA26ki0o4o+QxS8LQa+6gC+Nzbh6eiRC7TPObOcpEQbN/b28eskD6ma9hUtAJEFiyD8onQR5ckJ3Dwrn7npsfVRe9hSTDCxDpOZ4MTrL2bSIgDYoyVigN9Q6YkotEUsbPYqbOoLUdnZx+7uTjksO/r98oyxpn08/4jDYQ6KjLbLYTPAVphI3i2HE+kP4q0awl/TT6Tdi+ILYISiyCguLNKiIoeP7DYUhwM1w40ty4nVY8Hi0eRfq9uCYlUR0+kRn06oN0KgNURwexvRijpZajj+yDHccfUsUsWaMGE9uk73QJTMZOtXA8BUboMf/3o573zUgtNm4+dTivlFkYskVZfyHL2CdMTjfjHTkT7QnOqmJ6LRELKyK2Sl2q+yqXuI3d0ddPZ24xfbBoxiS/HzDjudEdkOvy8+vzYyvj5yhqxL5hHyawx+0oze0IHhDUisNKtVNniikQh6JLqXdzCJhBC2cDXiL24HikNMR5t7UhjBMIYvhN7ng16vWIUuv3TOtHRu+/0sJpWnysdi34vN9X5mlf4PlqkKAJ56cRe/+8NnUksmFhTyk/Jcvpfix6nFBuTj1Zj4kinpc0bMQ/4YmxhrCVmoDNqpClrZHbbQPCBWlDTT1d+D1++NKbxpO4aqYs9xY890oyUKv6BKjY30BQi2DhHuFht37Pk9o9z/MITOQ0oJbmqDviFUi0Z2YSoTZ2SRU5CIza7JsfXdTQPs2tpFe30v0ZDJtEaWne4VOBXwJHtIz8vEnZaKYrfjDYfZ3dhKsKEZl1XhvLPKOe/HE/CI6xaWHtJx2b9iDIjrUG3DIGdd9CG7Gry4nW4WTJjCjBQbxycOMdYWkd5g9ArBveN8xFCoDlr4zOegLmSjL6oyGI6yu7ONpvYWBnyDct8d6V5UBccYD0lzc0mamYUr1UayO4rLbtaQAhGNfr8QGgRbBuld3cLA2jaifeYonJmZj57nFIM8FkRjwOmxM/+wchYekkck6mBwUJRIFJxugwRPBEMPsnNLNyveaaSjqZOCbBu1jT7zugwFm9NGek4GhUVZzM5uJt0dpsVyAD3kEIyq9A/52Lizjt5N28lPs3PvjXNZMDsrlnjFr24Pv733gy8uxomNK8RK8lvu2yjRLMwZIxc0J2gwyR5koStAoS2CQxU01BSAaEYJDd8WsFERdNAV0QjFhpcGhrzsaKihq69LdqekdShgz0sk78wJZM3Pojh5kPHuDgptA6joWNBJIIyDCBZDpzWSyGf+fDZ6s2hv0+l4pZrON3ZJQUsqPMqFiR81m4XzLjuYnJxkqusshAKikmm+S9Bp2elUFTlik+UJkeQMs3xlN309QzLLTkpLIjktBYvFQqqthysSfoXd8OMnkdfCP6UidChRNDqG/KxZW0mwqo5TjhnDbb+fI8vO+7h71pf3A3bVD8j92z5e3SbVbEqpucAhRg0QDTiPquNUxeIkhYGoSkgEiViNSIAiulctXa2yaR8MB4bnijSXlcwTiin70TgmpfYy29VIkiqqZQoaEVKMEAlKZNSK9REO1Btx8o6vnJXBAjp2DlFz5xpCjf2y8R0/DLGG67glnDghmdxUg5ZujcEhRbIX6edlSdogKdGgKDtKW69Cc4e5r4NJrgw82pAcxuqIJpOktHON+5dYDZOOiiWsf/LfS3NknBiWZGt9K7UrK9ACft566ggmj0/7F8nvHkbwZS1Jc+80sbJQWEFVbT+GoTGpuJzslHRsVtvnS8wxdyB2RgmGQ/QPDVDT3EjvYG9MOWPupjiJsT+fzORFLhY46imydpsuzVCwG1HS8WEdFelH3NsI/xEgrw/m8YpvAg29Dhrvr6BvRTOGzBdAHTuG2YcvJFtTSLZHKczScVgUhvyCTSpyzlRUQIcCCvXtqsi7pOBjsselBvi+ZznT7bv4a/8x1IdS+LX7CnLjv2ZBgaXB81gePFnKob53kIoV64m2tnPVRQdw8bmT/0MLiJmzaIK8+X4T9/9jK1t39EninJueJTc0SnS6h7fxEhcfiUbkCkOxlVdnf7dkN2KR2zCtVBUSp2VSduFEJk2KssRZQ6rqlytohAd3GlHSCKApojkyim3FIvoeu2bJT6jsiqTw5NBU6nbbaXy4kr6PGqRLUpKTsM2cTsGYHEqtQpsVNMXA7RA1HAgEFXyhkR1P4qQhbkNuxc/RCZ9RZmviZe8iqkO5LLS9ytHWp3ExiK4oPBG4nIrwYdL5NQbDVHxaQaimgUMWZPHMXw41neK/TsLEO/7NWIqcFtNZua6dJ5fWsOzDZtkDFhbgcSfgtDnQNBHYDEKRkFxhOOQX08+jBB8LlQkHpDHhonJKp6oc5dpFmhKQ2wII8GyGjtsI02qodBsqfilehQR0xqghMhVBGUcSshEjNqiMZvL00GQatkDjA+vxVXaYLycm4Jw3h/z8LMpsBgnDKUksmduzrWEG81H8N8PSS7LmpT6cSxiNRKWbOdZ3KVR30q1n8kH4BwwaKfJz9QEBwHoiNfWUFiXyyUvHm5s+/ccASHco1oCJqYAhOZS19M061m7skjOfI5xwpEwgerdlRUk4nSoVm3ukBVgzXJSdV8b4o5M40NFMmaU7Nmlssvi+qME23Uo7mtiYkvheWTYMkolygBJkgcU3kuiNcqMi7rwWKWHVwFi2PdZMx7Pb0MUkngpadjYJi+ZRmuigyGZgiV3wHpt7jOZSQhmsBjbNwBswQ/voAohN8eNWBvDjJqC7pR2Ka93Z52PHqvXozS2MK0rgoxf3JwAxEMQ/whp6+4NyK+H1lV1U1Q7I6qmgbWIjjNJCD1MmpTJ2TCI+X5hFJ76JalXIObaA2ZcWkZXo53C1HrcakqAKC2jUVTbqVnoF9xmucIxsiCG+12bAIm2IRVo8YTMDZVw8dXoSTwcPoLbawY5b1uLf0WW+pGlYJ5aTOGMq0+2Qro3aXGNUcpfmEfNC0DMg5pYM6a5CYbEPaKyFOdwFjEXwkYSfIRGPmrtoX12B0dvH4Yfk8Ng9i02W9eVl6LgK/fvJuD2J60j5YZhxxC7GZBbmGivxR+yasuT0ZThyXEz7wxRKZ2mU0sN0rQOLEpHC7jI0VkatdIkZu+FlWiO7noywErE5WZSLLGL83RS8WTIzQ/RuI4Hn9XKaB9JYe9lGBteKBXrm62puFnbhipLcTHaI/d9GSU+sG7PqpCRECYQ0+odGWFyWHmVKJESOEWXQUNhstVOnia3ORk30KdClw8rt9QRWV8gSx42XTePnP5ywP4LwnqL/3KPYqPowS4nZq7g9MUF98bWreeP9ZpIPzmP+LZNIcw5yoNJMrjYoSxMCgOqoxgqx+1VMlCPN+zjQI45aTGH+SOsnSxX0dM9jt+5mqTGO5oEMVl+6CW9FHABBiTRsM6ZiHV/ObKdBpiW23Ci+4dLwqWKlCAzG6BEWhf0ki1gW3z/IUKiw2NlitcvdW6RHACp6fTSv3kC0qRmPx8Ybjx3OuOKkbwCAzyMinxFjLM+/VstNf97IUEhn7O/mMOMkN4m2IQ5WmshSfXIHG4HA1qjGajltbB5Cu+O1N9PzjQbA4AdaL/mq2Wwf7QJa9AQJQONAGmuGARi5QEvxWOwzppPocjLPZeAY3nQpbkWm1YpHLsNgXjjABD0Yt5VhItemWvjE5qRbEevioCmss37XboJr1iGW/vzolGJuuGQGCWLN8b8PwOICv6oL+nKrEHFgwBvilbcauPdv22hu9aK67Ux8+BjGl/aTYPVxkNJMlmL68UQjyNqonU+N2F5vw3Qzvl3kqNVXohZDlPO1XuzD6j9SCmzUE3jVKDUB+N1mBtc17xE9Re3GsXA+ltxcCq06E+2CZY0KArHtdMR1petRloR9ZMgV+nEWbb7XZ2h8ZHNSr1np0WFtj4/+T1ZhdHVRmJ/AXdfNYeGsLLk/9D74//0JgOhyheXWAA88up3WdrG1mIElI4Hxfz2WcTk9eOyDzKaNMeoAyYRxEWJD1MlbuiCb5hGnmqb2j4Atfpyl+jhOMyftYu+W/wiH9LGex+ZoJg09aay/cj2DFS173b+CpawEx/TpqFYrB9gNCqyjYs2oNV/C7RwU9lNgRPZiXYqMVR9bnVSpGpuDCm2r1hOtqcFpU/jlWeVc8NOJJCWIDcm/XFH3emX/WICYdFu1roPzrlhBe3dgeM2UJSuR0vuPpTh3gAxXD/l4maW2MQavDKLtuoW3ogk0Ye5Sa3Zy4pXUkW3BcowwZ1kHcMvBqFFuA4VBw8LTxnja/UlsXw0N91QQaOgfdgHDLRyrFedhi9HSMkhQDCY7dNKGJ99ji+5EydqAqeEAc6KBYSuJh/3tqo13NAcbwyq7N+8gUrlV7u57yIIcbr58JiWFHjkt9xWO/QOAaOKIja+vuq0CrTgHo2cAvWcQNdlJyYMnkZ8TIMfdSaIWkDS0WBE7Ypleoka38U7UTVdsizBTe0ZWIRYT5DTLAK7YrrWm+Efc1DP6OFqiHhoGs9nxQBWdL22X8/jSouIdtFgBSPF4cJ9wjKw4JasGB9h1kmIgjLY4u2EwJxJgUiQkV8aIs+1SbbypOVkbVmmvqiO0YQNKOExRYSJ/un6OnHzeR+o5omz7Y6sC6QYiOkvfqOW3138m03Sx/EiMr4lNmvKuXULW7FRykvpJdfQxXWnnYLV5Dx/Zr2us1Z1UGdZYFmyQSpTpapCJmti/UNDb0RVPhbChsEbPpIJsWrwZ1FaEaXmwgsBOkfzF42ZMd2NFNrlzb34uzvnzwWYnWTMYb9VJFknb3mr7/1fpJInySDRKp6pSbWjs8Ov01NSbmh/wk5nu5OYrZnDcYWNiS4++kvbvxxhgGOys6eOaOyqo3CFW0ahyS+KIWOl+YBH5F8whNcMgy91Dpq2Pk9VqMhSzuRJfVC3YnuA3YkmHEIZDiZe6R/rAcf8/pFvZbKTymZ5LWyCNpkY77U9sofutXcMwia0jszIdWDVVtlfFclpzOlpBG5OHfcpkVI8Hu6ZSaDHIUOUuNWYhMNbFC4vNnHSDlgg093oJ1NYT2VWDEgoyJj+BKy6YwklHF8pR+X1kPXvDvH9ckLhiUT3dVdfPynUdcobymZfrWLWhHS09gayfzyZ9fg4ed4R0Zx/j7G0cqjaQqQhxm1oTcyp7XOAICTU9v7CCbsPBxmgmW4wsWvxpdLZbaHlmJ92v7MAIR6Umit9uccjCXOZMy8Dl0KiuG5D1rOWr2mhp80thaaLWX1yEmpGJ5knEqWkkWQzE4huBQUTs5BXV6enzEuzsJtrYiN7RKbPk2dPSuejsCSxZmPufCH8/WkDc6Eclmasr2vnpbz6hbyiMc2IWGWdNI2ViCm6XTrJ9gAm2VhZYmhijesWeV7EYvGdrcxgNw8CPxnYjla3RTOojaXQGPPQ067Q+uZ2+D+tkv1a0G085diw/+0EZk8pTYlHAPItY4bl6fYes7orfjiFmVRWbFTUlGTU5WVoDTrtM3AxRxQ0E0Ae9GL396L29GKEQ6akOjj2sgLNOKZH7Uot10P9DzY/f2v6ygNGKa5qw2Njjpbfqufymz/BHDZwHZJN+5lQ8ZUkkJoLTEiRL62OyrZUZljZpDSYNjXMORW4L0KXbqSWBHdEsWvVkukIJDAzZ6VzdQdfSHfi2dUmBpSbb+ekPxsl1WMI36+91oqTZ0GYkx0rDJrXt6PKzaVs3S9+o54MVrQwMhmVnTNBTOVEsVl7K+npEFL/kTjBiA9a5MzLkuOGi2dlyazLzV5V8ZZ//dbmgLyBehmjM6Ly6rJ5r/7iB3sEQluwEUr8/maT5Y3AlGLhdYNN0XGqYbLWfAm2ARNkjgH5stOOm33Diw8aQ30q/38Zgg4/ul3fiXbObcJ/ZZRNbwvz+V1M5/ogCbLuqUUuLiN7VAGOdWM8qHLUy0eRQYn9rry9CTf0A73zYzLKPmtmys9/coiw2CySIlFjPtnhBNqccWyRZjifRXCuwj+3GfWGjX4cFxL93xBJWr2+XpQkRoEXHzDE+g6RjynFNycHpVnCK8oBTQRPJUTwIRuXv2SEcBJ9Pwd/qpe+tarwrmxCb/IlDCGNiWRL3/GEuE0pTpPT0Tz5BmT4dnC6pzZIafklZwJw5MgOzsAwBSE9vUH4mO9NFeUkSblc8RzHvaz8Kf3/HgC8BPFa0E9tHikz51WWNtLT75CYcWpobx4RMrAXJcjcri5g8E2tuIzoRb4hIxxDh3X0EdnUTrO2TchTCEdNn+bkuzjy5hJ+cWmZOSo9i16Ov5N-3pr7s1ybGBB4/mXmifdHqr/Ker9MCPh8XhL6JfZw/WNnKZ+s7qG3y0tbhl1oXDkUxhHkLjRV8VKynkNVhQ3aXxO/qysl0UlLkYeHsLI5ZXCB/bZS5cGR/CWekxP1VpPgfvPebAmBPtyRuU+wfsWNXH/VNXna3DckNVsVvVRLV1HDY3H9H/NY6sTI+N9tFQU4CJYWJlBZ7SE0aqaD+hyzkP5DdfvnoNw3AXhcdc0+ipyw6aAPesFzCKnv5iljEopLgFiPpNplQDR/7VurdLxL6mk/yLQMwfHejC2x7zefu0fH5msXxzZ/+vwWAb/7O/0u+8b8NgG88CH7bOPy3AfBty2Nfv3+/Kcp3AOyryL+m930HwNck2H097XcA7Kukvqb3fRMA7Dd/+SUy+LrPv+d44n4GYuz/A0zaerGWi/vYAAAAAElFTkSuQmCC">\
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^3.0/dist/tailwind.min.css" rel="stylesheet">\
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">\
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>\
+    <script src="https://cdn.jsdelivr.net/npm/framer-motion@10.16.4/dist/framer-motion.iife.min.js"></script>\
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Mochiy+Pop+One&family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">\
+\
+    <style>\
+        body \{\
+            background: linear-gradient(135deg, #1c3a70 0%, #4a2f6c 100%);\
+            color: #fff;\
+            font-family: 'Noto Sans TC', 'Inter', sans-serif;\
+            overflow-x: hidden;\
+            margin: 0;\
+        \}\
+\
+        .presentation-slide \{\
+            width: 100vw;\
+            min-height: 100vh;\
+            padding: 3rem 2rem;\
+            box-sizing: border-box;\
+            display: flex;\
+            flex-direction: column;\
+            justify-content: center;\
+            align-items: center;\
+            position: relative;\
+            overflow: hidden;\
+            text-align: center;\
+        \}\
+\
+        .presentation-slide > .slide-content \{\
+            position: relative;\
+            z-index: 1; /* Ensure content is above confetti canvas */\
+            max-width: 900px;\
+            width: 100%;\
+            background-color: rgba(0, 0, 0, 0.25);\
+            padding: 2.5rem;\
+            border-radius: 1.25rem;\
+            box-shadow: 0 10px 30px rgba(0,0,0,0.35);\
+        \}\
+\
+        .slide-title \{\
+            font-size: 2.8rem;\
+            font-weight: 700;\
+            margin-bottom: 1.5rem;\
+            color: #f0f0f0;\
+        \}\
+        \
+        .slide-subtitle \{\
+            font-size: 1.5rem;\
+            font-weight: 500;\
+            margin-bottom: 1rem;\
+            color: #d0d0d0;\
+        \}\
+\
+        .slide-text \{\
+            font-size: 1.1rem;\
+            line-height: 1.8;\
+            color: #c0c0c0;\
+            margin-bottom: 1rem;\
+        \}\
+        \
+        .info-card \{\
+            display: inline-block;\
+            background-color: #007bff;\
+            color: white;\
+            padding: 0.8rem 1.5rem;\
+            border-radius: 0.5rem;\
+            text-decoration: none;\
+            font-weight: 600;\
+            margin-top: 1rem;\
+            transition: background-color 0.3s ease, transform 0.2s ease;\
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);\
+        \}\
+        .info-card:hover \{\
+            background-color: #0056b3;\
+            transform: translateY(-2px);\
+        \}\
+        .info-card-purple \{ background-color: #6f42c1; \}\
+        .info-card-purple:hover \{ background-color: #5a32a3; \}\
+        .info-card-green \{ background-color: #28a745; \}\
+        .info-card-green:hover \{ background-color: #1e7e34; \}\
+        .info-card-orange \{ background-color: #fd7e14; \}\
+        .info-card-orange:hover \{ background-color: #e66a00; \}\
+        .info-card-red \{ background-color: #dc3545; \}\
+        .info-card-red:hover \{ background-color: #c82333; \}\
+\
+        .styled-table \{\
+            width: 100%;\
+            margin-top: 1.5rem;\
+            border-collapse: collapse;\
+            background-color: rgba(255, 255, 255, 0.05);\
+            border-radius: 0.5rem;\
+            overflow: hidden;\
+            text-align: left;\
+        \}\
+        .styled-table th, .styled-table td \{\
+            border: 1px solid rgba(255, 255, 255, 0.2);\
+            padding: 0.75rem 1rem;\
+            vertical-align: top;\
+        \}\
+        .styled-table th \{\
+            background-color: rgba(0, 0, 0, 0.3);\
+            font-weight: 600;\
+            color: #e0e0e0;\
+        \}\
+        .styled-table td strong, .highlight-text \{\
+            color: #FFD700; /* 
+\f1 \'aa\'f7\'b6\'c0\'a6\'e2
+\f0  */\
+            font-weight: 700;\
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);\
+        \}\
+        .styled-table ul \{\
+            list-style-type: disc;\
+            padding-left: 20px;\
+            margin: 0.5rem 0;\
+        \}\
+        .styled-table code \{\
+            background-color: rgba(255,255,255,0.1);\
+            padding: 0.2em 0.4em;\
+            border-radius: 3px;\
+            font-family: monospace;\
+        \}\
+        .styled-table-container \{\
+            max-height: 65vh;\
+            overflow-y: auto;\
+            padding-right: 10px; /* 
+\f1 \'b9\'77\'af\'64\'ba\'75\'b0\'ca\'b1\'f8\'aa\'c5\'b6\'a1
+\f0  */\
+        \}\
+        /* 
+\f1 \'a6\'db\'ad\'71\'ba\'75\'b0\'ca\'b1\'f8\'bc\'cb\'a6\'a1
+\f0  */\
+        .styled-table-container::-webkit-scrollbar \{\
+            width: 8px;\
+        \}\
+        .styled-table-container::-webkit-scrollbar-track \{\
+            background: rgba(0,0,0,0.2);\
+            border-radius: 4px;\
+        \}\
+        .styled-table-container::-webkit-scrollbar-thumb \{\
+            background: rgba(255,255,255,0.3);\
+            border-radius: 4px;\
+        \}\
+        .styled-table-container::-webkit-scrollbar-thumb:hover \{\
+            background: rgba(255,255,255,0.5);\
+        \}\
+\
+\
+        .canva-embed-container \{ \
+            position: relative;\
+            width: 100%;\
+            max-width: 800px; \
+            height: 600px; \
+            overflow: hidden;\
+            margin: 1.5rem auto;\
+            border-radius: 0.5rem;\
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);\
+            border: 2px solid rgba(255,255,255,0.1);\
+        \}\
+        .canva-embed-container iframe \{\
+            position: absolute;\
+            top: 0; left: 0;\
+            width: 100%; height: 100%;\
+            border: 0;\
+        \}\
+        \
+        #navigation-controls \{\
+            position: fixed;\
+            bottom: 20px;\
+            left: 50%;\
+            transform: translateX(-50%);\
+            z-index: 1000;\
+            padding: 0.8rem;\
+            background-color: rgba(0, 0, 0, 0.7);\
+            border-radius: 0.75rem;\
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);\
+            display: flex;\
+            gap: 0.8rem;\
+        \}\
+        #navigation-controls button \{\
+            padding: 0.6rem 1.2rem;\
+            font-size: 0.9rem;\
+            font-weight: 600;\
+            color: white;\
+            border: none;\
+            border-radius: 0.5rem;\
+            cursor: pointer;\
+            transition: background-color 0.3s ease, transform 0.2s ease, opacity 0.3s ease;\
+            display: flex;\
+            align-items: center;\
+            gap: 0.4rem;\
+        \}\
+        #navigation-controls button:disabled \{\
+            opacity: 0.4;\
+            cursor: not-allowed;\
+            transform: none;\
+        \}\
+        #next-slide.return-to-title \{ background-color: #17a2b8; \}\
+        #next-slide.return-to-title:hover:not(:disabled) \{ background-color: #138496; \}\
+        #prev-slide \{ background-color: #6f42c1; \}\
+        #prev-slide:hover:not(:disabled) \{ background-color: #5a32a3; transform: translateY(-2px); \}\
+        #next-slide \{ background-color: #007bff; \}\
+        #next-slide:hover:not(:disabled) \{ background-color: #0056b3; transform: translateY(-2px); \}\
+\
+        #slide-selector-container \{\
+            position: fixed;\
+            bottom: 20px;\
+            right: 20px;\
+            z-index: 1000;\
+        \}\
+        #slide-select-dropdown \{\
+            background-color: rgba(0, 0, 0, 0.7);\
+            color: white;\
+            padding: 0.6rem 1rem;\
+            border-radius: 0.5rem;\
+            border: 1px solid rgba(255, 255, 255, 0.3);\
+            font-size: 0.9rem;\
+            font-family: 'Noto Sans TC', sans-serif;\
+            cursor: pointer;\
+            transition: background-color 0.3s ease;\
+            max-width: 200px;\
+        \}\
+        #slide-select-dropdown:hover \{ background-color: rgba(0, 0, 0, 0.9); \}\
+        #slide-select-dropdown option \{ background-color: #333; color: white; \}\
+\
+        .lecturer-info \{\
+            background-color: rgba(111, 66, 193, 0.3); \
+            padding: 0.75rem 1.25rem;\
+            border-radius: 0.5rem;\
+            display: inline-block; \
+            margin-top: 1rem;\
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);\
+        \}\
+\
+        .prominent-title \{ \
+            font-size: 3.5rem;\
+            font-weight: 900;\
+            color: #FFD700; \
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);\
+            margin-bottom: 2rem;\
+        \}\
+        .mochiy-pop-font \{\
+            font-family: 'Mochiy Pop One', 'Noto Sans TC', sans-serif;\
+        \}\
+        \
+        .conclusion-highlight \{\
+            font-size: 2.2rem; \
+            font-weight: 700; \
+            color: #FF69B4; \
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);\
+            margin-top: 1.5rem;\
+            line-height: 1.5;\
+        \}\
+\
+        .thank-you-text \{\
+            font-size: 4.5rem;\
+            font-weight: 900;\
+            color: #66FF99;\
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.6);\
+            margin-bottom: 1rem;\
+        \}\
+        .thank-you-character \{\
+            font-size: 6rem;\
+            display: inline-block;\
+            animation: wave-animation 2.5s infinite;\
+            transform-origin: 70% 70%;\
+        \}\
+        @keyframes wave-animation \{\
+            0% \{ transform: rotate( 0.0deg) \}\
+            10% \{ transform: rotate( 14.0deg) \}\
+            20% \{ transform: rotate(-8.0deg) \}\
+            30% \{ transform: rotate( 14.0deg) \}\
+            40% \{ transform: rotate(-4.0deg) \}\
+            50% \{ transform: rotate( 10.0deg) \}\
+            60% \{ transform: rotate( 0.0deg) \}\
+            100% \{ transform: rotate( 0.0deg) \}\
+        \}\
+\
+        #confetti-canvas \{\
+            position: absolute;\
+            top: 0; left: 0;\
+            width: 100%; height: 100%;\
+            pointer-events: none;\
+            z-index: 0;\
+        \}\
+\
+        @media (max-width: 768px) \{\
+            .presentation-slide \{ padding: 2rem 1rem; \}\
+            .slide-content \{ padding: 1.5rem; \}\
+            .slide-title \{ font-size: 2rem; \}\
+            .prominent-title \{ font-size: 2.5rem; \}\
+            .slide-subtitle \{ font-size: 1.2rem; \}\
+            .slide-text \{ font-size: 1rem; \}\
+            .info-card \{ padding: 0.7rem 1.2rem; font-size: 0.9rem; \}\
+            .styled-table th, .styled-table td \{ padding: 0.5rem; font-size: 0.8rem; \}\
+            #navigation-controls \{ bottom: 10px; padding: 0.6rem; \}\
+            #navigation-controls button \{ padding: 0.5rem 1rem; font-size: 0.8rem; \}\
+            .conclusion-highlight \{ font-size: 1.6rem; \}\
+            .thank-you-text \{ font-size: 3rem; \}\
+            .canva-embed-container \{ height: 450px; \}\
+            #slide-selector-container \{ right: 10px; bottom: 70px; \}\
+            #slide-select-dropdown \{ padding: 0.5rem; font-size: 0.8rem; max-width: 150px;\}\
+        \}\
+    </style>\
+</head>\
+<body>\
+\
+<section class="presentation-slide">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55357 \u56462 
+\f0  
+\f1 \'b6\'57\'ad\'c8
+\f0 AI
+\f1 \'af\'ab\'a7\'55\'b2\'7a
+\f0 ...Gemini
+\f1 \'a4\'c9\'af\'c5\'bb\'50\'ac\'a1\'a5\'ce
+\f0  
+\f2 \uc0\u55357 \u56960 
+\f0 </h1>\
+        <div class="lecturer-info">\
+            <p class="slide-text" style="font-size: 1.2rem; margin: 0; color: #f0f0f0;">\
+                
+\f1 \'c1\'bf\'ae\'76\'a1\'47
+\f0 Gloria
+\f1 \'a7\'64\'a8\'71\'c4\'f5\'a6\'d1\'ae\'76
+\f0 <br>\
+                Google 
+\f1 \'bb\'7b\'c3\'d2\'c1\'bf\'ae\'76
+\f0 \
+            </p>\
+        </div>\
+        <p class="slide-text" style="font-size: 1.1rem; margin-top: 0.5rem;">
+\f1 \'b0\'ea\'a5\'df\'b4\'bf\'a4\'e5\'b9\'41\'a4\'75
+\f0  
+\f1 \'ad\'5e\'a4\'e5\'ad\'dd\'a5\'78\'bb\'79\'b1\'d0\'ae\'76
+\f0 </p>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title prominent-title">
+\f2 \uc0\u55356 \u57119 
+\f0  
+\f1 \'c1\'bf\'ae\'76\'a4\'b6\'b2\'d0
+\f0  
+\f2 \uc0\u55356 \u57119 
+\f0 </h1>\
+        <p class="slide-text">
+\f1 \'c5\'fd\'a7\'da\'ad\'cc\'a7\'f3\'bb\'7b\'c3\'d1\'a4\'b5\'a4\'d1\'aa\'ba\'c1\'bf\'ae\'76
+\f0  Gloria 
+\f1 \'a7\'64\'a8\'71\'c4\'f5\'a6\'d1\'ae\'76\'a1\'49
+\f0 </p>\
+        <a href="https://youtu.be/V6uc2s51dxw" target="_blank" class="info-card info-card-purple" style="margin-top: 2rem; font-size: 1.3rem;">\
+            
+\f1 \'c6\'5b\'ac\'dd\'c1\'bf\'ae\'76\'a4\'b6\'b2\'d0\'bc\'76\'a4\'f9
+\f0  <i class="fab fa-youtube"></i>\
+        </a>\
+        <p class="slide-text" style="font-size: 0.8rem; margin-top: 1rem;">
+\f1 \'a1\'5d\'c2\'49\'c0\'bb\'a4\'57\'a4\'e8\'ab\'f6\'b6\'73\'c6\'5b\'ac\'dd\'bc\'76\'a4\'f9\'a1\'5e
+\f0 </p>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55357 \u56522 
+\f0  Google 
+\f1 \'a4\'54\'a4\'6a
+\f0  AI 
+\f1 \'a4\'75\'a8\'e3\'a4\'f1\'b8\'fb
+\f0 </h1>\
+        <p class="slide-text">
+\f1 \'a4\'46\'b8\'d1
+\f0  NotebookLM, Gemini, 
+\f1 \'a9\'4d
+\f0  Google AI Studio 
+\f1 \'aa\'ba\'a4\'a3\'a6\'50\'a4\'a7\'b3\'42\'a1\'47
+\f0 </p>\
+        <div class="styled-table-container" style="max-height: 70vh; overflow-y: auto;">\
+             <table class="styled-table">\
+                <thead><tr><th>
+\f1 \'a4\'75\'a8\'e3\'a6\'57\'ba\'d9
+\f0 </th><th>
+\f1 \'b1\'6a\'b6\'b5
+\f0  / 
+\f1 \'a5\'44\'ad\'6e\'a5\'5c\'af\'e0
+\f0 </th><th>
+\f1 \'a8\'cf\'a5\'ce\'ae\'c9\'be\'f7
+\f0  / 
+\f1 \'be\'41\'a6\'58\'b3\'f5\'b4\'ba
+\f0 </th></tr></thead>\
+                <tbody>\
+                    <tr><td><strong>NotebookLM</strong></td><td><ul><li>
+\f1 \'b0\'f2\'a9\'f3
+\f0 <strong>
+\f1 \'b1\'7a\'b4\'a3\'a8\'d1\'aa\'ba\'b8\'ea\'ae\'c6\'a8\'d3\'b7\'bd
+\f0 </strong>
+\f1 \'b6\'69\'a6\'e6\'ac\'e3\'a8\'73\'bb\'50\'bc\'67\'a7\'40
+\f0 </li><li>
+\f1 \'a7\'d6\'b3\'74\'ba\'4b\'ad\'6e\'a1\'42\'b4\'a3\'b0\'dd\'a1\'42\'a5\'cd\'a6\'a8\'b5\'a7\'b0\'4f\'a1\'42
+\f0 FAQ
+\f1 \'a1\'42\'be\'c7\'b2\'df\'ab\'fc\'ab\'6e
+\f0 </li><li>
+\f1 \'be\'e3\'a6\'58\'a6\'68\'ba\'d8\'a8\'d3\'b7\'bd
+\f0  (PDF, Docs, URL, YouTube
+\f1 \'a6\'72\'b9\'f5
+\f0 )</li><li><strong>
+\f1 \'ad\'d3\'a4\'48\'a4\'c6
+\f0  AI 
+\f1 \'ac\'e3\'a8\'73\'a7\'55\'b2\'7a
+\f0 </strong></li></ul></td><td><ul><li>
+\f1 \'b2\'60\'ab\'d7\'be\'5c\'c5\'aa\'bb\'50\'b2\'7a\'b8\'d1\'a4\'6a\'b6\'71\'a4\'e5\'a5\'f3
+\f0 </li><li>
+\f1 \'be\'c7\'b3\'4e\'ac\'e3\'a8\'73\'a1\'42\'b3\'f8\'a7\'69\'bc\'b6\'bc\'67\'a1\'42\'bd\'d2\'b5\'7b\'b7\'c7\'b3\'c6
+\f0 </li><li><strong>
+\f1 \'ab\'d8\'a5\'df\'ad\'d3\'a4\'48\'aa\'be\'c3\'d1\'ae\'77
+\f0 </strong>
+\f1 \'a8\'c3\'bb\'50
+\f0  AI 
+\f1 \'a4\'ac\'b0\'ca
+\f0 </li><li>
+\f1 \'bb\'dd\'ad\'6e
+\f0  AI 
+\f1 \'a6\'5e\'c0\'b3
+\f0 <strong>
+\f1 \'c4\'59\'ae\'e6\'b0\'f2\'a9\'f3\'af\'53\'a9\'77\'a4\'e5\'a5\'f3
+\f0 </strong>
+\f1 \'ae\'c9
+\f0 </li></ul></td></tr>\
+                    <tr><td><strong>Gemini (App/Web)</strong></td><td><ul><li><strong>
+\f1 \'b3\'71\'a5\'ce\'ab\'ac
+\f0  AI 
+\f1 \'a7\'55\'b2\'7a
+\f0 </strong> (
+\f1 \'ba\'f4\'ad\'b6\'aa\'a9
+\f0  gemini.google.com 
+\f1 \'a9\'ce
+\f0  App)</li><li>
+\f1 \'b3\'d0\'b7\'4e\'bc\'67\'a7\'40\'a1\'42\'b5\'7b\'a6\'a1\'bd\'58\'a5\'cd\'a6\'a8\'a1\'42\'a6\'68\'bb\'79\'a8\'a5\'c2\'bd\'c4\'b6\'a1\'42\'a4\'e9\'b1\'60\'b0\'dd\'b5\'aa
+\f0 </li><li>
+\f1 \'a5\'69\'b3\'73\'b1\'b5
+\f0  Google Apps (Gmail, Docs 
+\f1 \'b5\'a5\'a1\'41\'bb\'dd\'a5\'49\'b6\'4f\'aa\'a9
+\f0 )</li><li>
+\f1 \'a6\'68\'bc\'d2\'ba\'41\'af\'e0\'a4\'4f
+\f0  (
+\f1 \'b2\'7a\'b8\'d1\'a4\'e5\'a6\'72\'a1\'42\'b9\'cf\'a4\'f9\'a1\'42\'bb\'79\'ad\'b5
+\f0 )</li></ul></td><td><ul><li>
+\f1 \'a7\'d6\'b3\'74\'c0\'f2\'a8\'fa\'b8\'ea\'b0\'54\'a1\'42\'b8\'a3\'a4\'4f\'bf\'45\'c0\'fa
+\f0 </li><li>
+\f1 \'bc\'b6\'bc\'67\'af\'f3\'bd\'5a\'a1\'42\'bc\'ed\'b9\'a2\'a4\'e5\'a6\'72\'a1\'42\'be\'c7\'b2\'df\'b7\'73\'aa\'be
+\f0 </li><li><strong>
+\f1 \'a4\'e9\'b1\'60\'a5\'f4\'b0\'c8\'aa\'ba
+\f0  AI 
+\f1 \'a8\'f3\'a7\'55
+\f0 </strong></li><li>
+\f1 \'bb\'dd\'ad\'6e\'bc\'73\'aa\'78\'aa\'be\'c3\'d1\'bb\'50\'b3\'d0\'b7\'4e\'a5\'cd\'a6\'a8\'ae\'c9
+\f0 </li></ul></td></tr>\
+                    <tr><td><strong>Google AI Studio</strong><br><small>(ai.google.dev)</small></td><td><ul><li><strong>
+\f1 \'b6\'7d\'b5\'6f\'aa\'cc\'a5\'ad\'a5\'78
+\f0 </strong>
+\f1 \'a1\'41\'a5\'ce\'a9\'f3\'ad\'ec\'ab\'ac\'b3\'5d\'ad\'70\'bb\'50\'ab\'d8\'ba\'63
+\f0  AI 
+\f1 \'c0\'b3\'a5\'ce
+\f0 </li><li>
+\f1 \'a6\'73\'a8\'fa\'b3\'cc\'b7\'73\'aa\'ba
+\f0  Gemini API 
+\f1 \'bc\'d2\'ab\'ac
+\f0 </li><li>
+\f1 \'bd\'d5\'be\'e3\'bc\'d2\'ab\'ac\'b0\'d1\'bc\'c6\'a1\'42\'b4\'fa\'b8\'d5\'b4\'a3\'a5\'dc
+\f0  (Prompt Engineering)</li><li>
+\f1 \'c0\'f2\'a8\'fa
+\f0  API 
+\f1 \'aa\'f7\'c6\'5f\'a5\'48\'be\'e3\'a6\'58\'a8\'ec\'a6\'db\'a4\'76\'aa\'ba\'c0\'b3\'a5\'ce\'b5\'7b\'a6\'a1\'a4\'a4
+\f0 </li></ul></td><td><ul><li>
+\f1 \'b6\'7d\'b5\'6f\'aa\'cc\'a9\'ce\'a7\'de\'b3\'4e\'b7\'52\'a6\'6e\'aa\'cc
+\f0 <strong>
+\f1 \'b1\'b4\'af\'c1
+\f0  AI 
+\f1 \'bc\'d2\'ab\'ac\'af\'e0\'a4\'4f
+\f0 </strong></li><li>
+\f1 \'ac\'b0\'af\'53\'a9\'77\'c0\'b3\'a5\'ce\'b3\'f5\'b4\'ba\'b3\'5d\'ad\'70\'a9\'4d\'b4\'fa\'b8\'d5
+\f0  AI 
+\f1 \'b4\'a3\'a5\'dc
+\f0 </li><li><strong>
+\f1 \'ab\'d8\'ba\'63\'ab\'c8\'bb\'73\'a4\'c6\'aa\'ba
+\f0  AI 
+\f1 \'a5\'5c\'af\'e0\'a9\'ce\'aa\'41\'b0\'c8
+\f0 </strong></li><li>
+\f1 \'bb\'dd\'ad\'6e\'a7\'f3\'b2\'d3\'bd\'6f\'b1\'b1\'a8\'ee\'bc\'d2\'ab\'ac\'a6\'e6\'ac\'b0\'ae\'c9
+\f0 </li></ul></td></tr>\
+                </tbody>\
+            </table>\
+        </div>\
+        <p class="slide-text" style="margin-top: 1rem; font-size: 0.9rem;"><strong>
+\f1 \'ad\'ab\'c2\'49\'b4\'a3\'a5\'dc\'a1\'47
+\f0 </strong><code>NotebookLM</code> 
+\f1 \'b1\'6a\'bd\'d5\'b0\'f2\'a9\'f3\'b1\'7a\'aa\'ba\'b8\'ea\'ae\'c6\'a1\'46
+\f0 <code>Gemini</code> 
+\f1 \'ac\'4f\'b8\'55\'a5\'ce\'a7\'55\'b2\'7a\'a1\'46
+\f0 <code>AI Studio</code> 
+\f1 \'ab\'68\'ac\'b0\'b6\'7d\'b5\'6f\'aa\'cc\'a5\'b4\'b3\'79\'c0\'b3\'a5\'ce\'a1\'43
+\f0 </p>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h2 class="slide-subtitle">I. 
+\f1 \'ab\'65\'a8\'a5\'a1\'47
+\f0 </h2>\
+        <h1 class="slide-title">
+\f2 \uc0\u55357 \u56540 
+\f0  
+\f1 \'b5\'db\'a7\'40\'a4\'48\'ae\'e6\'c5\'76
+\f0 </h1>\
+        <p class="slide-text">
+\f1 \'bd\'d0\'aa\'60\'b7\'4e\'a1\'41\'a8\'cf\'a5\'ce
+\f0 AI
+\f1 \'a4\'75\'a8\'e3\'ae\'c9\'a1\'41\'a4\'b4\'bb\'dd\'b4\'4c\'ad\'ab\'a5\'4c\'a4\'48\'aa\'ba\'b5\'db\'a7\'40\'c5\'76\'af\'71\'a1\'43\'a5\'48\'a4\'55\'bc\'76\'a4\'f9\'b4\'a3\'a8\'d1\'ac\'db\'c3\'f6\'bb\'a1\'a9\'fa\'a1\'47
+\f0 </p>\
+        <a href="https://youtu.be/Kb1IRCcnkhY" target="_blank" class="info-card info-card-purple" style="margin-top: 2rem; font-size: 1.3rem;">\
+            
+\f1 \'c6\'5b\'ac\'dd\'bb\'a1\'a9\'fa\'bc\'76\'a4\'f9
+\f0  <i class="fab fa-youtube"></i>\
+        </a>\
+        <p class="slide-text" style="font-size: 0.8rem; margin-top: 1rem;">
+\f1 \'a1\'5d\'c2\'49\'c0\'bb\'a4\'57\'a4\'e8\'ab\'f6\'b6\'73\'c6\'5b\'ac\'dd\'bc\'76\'a4\'f9\'a1\'5e
+\f0 </p>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u9878 \u65039 
+\f0  
+\f1 \'a8\'cf\'a5\'ce
+\f0 Google AI
+\f1 \'aa\'ba\'ad\'ad\'a8\'ee\'a4\'ce\'b3\'57\'bd\'64
+\f0 </h1>\
+        <p class="slide-text">
+\f1 \'a6\'62\'a8\'cf\'a5\'ce
+\f0  Gemini API (NotebookLM 
+\f1 \'a9\'b3\'bc\'68\'a7\'de\'b3\'4e\'a4\'a7\'a4\'40
+\f0 ) 
+\f1 \'ae\'c9\'a1\'41\'bd\'d0\'b0\'c8\'a5\'b2\'bf\'ed\'a6\'75\'ac\'db\'c3\'f6\'ac\'46\'b5\'a6\'a1\'47
+\f0 </p>\
+        <div class="styled-table-container" style="max-height: 60vh; overflow-y: auto;">\
+             <table class="styled-table">\
+                <thead><tr><th>
+\f1 \'ac\'46\'b5\'a6\'ad\'ab\'c2\'49
+\f0 </th><th>
+\f1 \'bb\'a1\'a9\'fa
+\f0 </th></tr></thead>\
+                <tbody>\
+                    <tr><td><strong>
+\f1 \'b8\'54\'a4\'ee\'a5\'ce\'b3\'7e
+\f0 </strong></td><td>
+\f1 \'a4\'a3\'b1\'6f\'a5\'ce\'a9\'f3\'b2\'a3\'a5\'cd\'a4\'b3\'ab\'eb\'a8\'a5\'bd\'d7\'a1\'42\'c4\'cc\'c2\'5a\'a1\'42\'b1\'a1\'a6\'e2\'c5\'53\'b0\'a9\'a4\'ba\'ae\'65\'a1\'42\'bc\'c9\'a4\'4f\'a4\'ba\'ae\'65\'a9\'ce\'a5\'f4\'a6\'f3\'ab\'44\'aa\'6b\'ac\'a1\'b0\'ca\'a1\'43
+\f0 </td></tr>\
+                    <tr><td><strong>
+\f1 \'b8\'ea\'ae\'c6\'b3\'42\'b2\'7a\'bb\'50\'c1\'f4\'a8\'70
+\f0 </strong></td><td>Google 
+\f1 \'b7\'7c\'ba\'ca\'b1\'b1
+\f0  API 
+\f1 \'a8\'cf\'a5\'ce\'b1\'a1\'aa\'70\'a5\'48\'b0\'bb\'b4\'fa\'c0\'dd\'a5\'ce\'a6\'e6\'ac\'b0\'a1\'43\'b4\'a3\'a5\'dc\'a1\'42\'ad\'49\'b4\'ba\'b8\'ea\'b0\'54\'a9\'4d\'bf\'e9\'a5\'58\'a4\'ba\'ae\'65\'a5\'69\'af\'e0\'b7\'7c\'b3\'51\'ab\'4f\'af\'64
+\f0  <strong>55 
+\f1 \'a4\'d1
+\f0 </strong>
+\f1 \'a5\'ce\'a9\'f3\'c0\'dd\'a5\'ce\'ba\'ca\'b1\'b1\'a1\'41\'a6\'fd
+\f0 <strong>
+\f1 \'a4\'a3\'b7\'7c
+\f0 </strong>
+\f1 \'a5\'ce\'a9\'f3\'b0\'56\'bd\'6d\'a9\'ce\'b7\'4c\'bd\'d5\'b3\'71\'a5\'ce
+\f0  AI 
+\f1 \'bc\'d2\'ab\'ac\'a1\'43
+\f0 </td></tr>\
+                    <tr><td><strong>
+\f1 \'a4\'48\'a4\'75\'bc\'66\'ac\'64
+\f0 </strong></td><td>
+\f1 \'ad\'59\'a8\'74\'b2\'ce\'b0\'bb\'b4\'fa\'a8\'ec\'a5\'69\'ba\'c3\'ac\'a1\'b0\'ca\'a9\'ce\'a4\'ba\'ae\'65\'bc\'d0\'b0\'4f\'a1\'41
+\f0 <strong>Google 
+\f1 \'b1\'c2\'c5\'76\'a4\'48\'ad\'fb
+\f0 </strong>
+\f1 \'a5\'69\'af\'e0\'b7\'7c\'b6\'69\'a6\'e6\'a4\'48\'a4\'75\'bc\'66\'ac\'64\'a1\'43
+\f0 </td></tr>\
+                    <tr><td><strong>
+\f1 \'ac\'46\'b5\'a6\'bf\'ed\'b4\'60
+\f0 </strong></td><td>
+\f1 \'b9\'48\'a4\'cf\'ac\'46\'b5\'a6\'a5\'69\'af\'e0\'be\'c9\'ad\'50\'a8\'cf\'a5\'ce\'ad\'ad\'a8\'ee\'a1\'42\'bc\'c8\'ae\'c9\'b0\'b1\'c5\'76\'a1\'41\'c4\'59\'ad\'ab\'aa\'cc\'ac\'c6\'a6\'dc\'b1\'62\'a4\'e1\'c3\'f6\'b3\'ac\'a1\'43
+\f0 </td></tr>\
+                    <tr><td><strong>
+\f1 \'b7\'4e\'a8\'a3\'a6\'5e\'f5\'58
+\f0 </strong></td><td>
+\f1 \'a6\'62
+\f0  AI Studio 
+\f1 \'a4\'a4\'b4\'a3\'a8\'d1\'aa\'ba\'b0\'be\'a6\'6e\'a7\'eb\'b2\'bc\'b5\'a5\'b7\'4e\'a8\'a3\'a6\'5e\'f5\'58\'a1\'41\'b1\'4e\'a5\'ce\'a9\'f3\'a7\'ef\'b5\'bd
+\f0  Google 
+\f1 \'b2\'a3\'ab\'7e\'a9\'4d\'aa\'41\'b0\'c8\'a1\'43\'b4\'a3\'a5\'e6\'b7\'4e\'a8\'a3\'ae\'c9\'a1\'41\'bd\'d0\'a4\'c5\'a5\'5d\'a7\'74\'b1\'d3\'b7\'50\'a9\'ce\'ad\'d3\'a4\'48\'b8\'ea\'b0\'54\'a1\'43
+\f0 </td></tr>\
+                    <tr><td><strong>
+\f1 \'b3\'64\'a5\'f4\'c2\'6b\'c4\'dd
+\f0 </strong></td><td>
+\f1 \'a8\'cf\'a5\'ce\'aa\'cc\'bb\'dd\'b9\'ef\'a8\'e4\'c0\'b3\'a5\'ce\'b5\'7b\'a6\'a1\'aa\'ba\'a6\'e6\'ac\'b0\'ad\'74\'b3\'64\'a1\'41\'a8\'c3\'bd\'54\'ab\'4f\'a8\'e4\'b2\'c5\'a6\'58\'a9\'d2\'a6\'b3\'be\'41\'a5\'ce\'aa\'6b\'ab\'df\'bb\'50\'b3\'57\'bd\'64\'a1\'43
+\f0 </td></tr>\
+                </tbody>\
+            </table>\
+        </div>\
+        <a href="https://ai.google.dev/gemini-api/docs/usage-policies?hl=zh-tw" target="_blank" class="info-card" style="margin-top: 1.5rem;">
+\f1 \'ac\'64\'ac\'dd\'a7\'b9\'be\'e3\'ac\'46\'b5\'a6
+\f0  <i class="fas fa-external-link-alt"></i></a>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u9989 
+\f0  AI
+\f1 \'aa\'ba
+\f0 Do vs 
+\f2 \uc0\u55357 \u57003 
+\f0  Don't</h1>\
+        <p class="slide-text" style="font-size: 1.8rem; margin-top: 2rem;">\
+            
+\f1 \'a4\'46\'b8\'d1
+\f0 AI
+\f1 \'af\'e0\'b0\'b5\'a4\'b0\'bb\'f2\'a1\'41\'a5\'48\'a4\'ce\'ad\'fe\'a8\'c7\'ae\'c9\'ad\'d4\'a7\'da\'ad\'cc\'a4\'b4\'bb\'dd\'c2\'d4\'b7\'56\'a1\'49
+\f0 \
+        </p>\
+        <div style="display: flex; justify-content: space-around; margin-top: 2rem;">\
+            <span style="font-size: 4rem;">
+\f2 \uc0\u55357 \u56397 
+\f0 </span>\
+            <span style="font-size: 4rem;">
+\f2 \uc0\u55358 \u56596 
+\f0 </span>\
+            <span style="font-size: 4rem;">
+\f2 \uc0\u55357 \u56398 
+\f0 </span>\
+        </div>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55357 \u56481 
+\f0  
+\f1 \'ad\'ab\'bd\'c6\'a9\'ca\'b6\'4f\'ae\'c9\'b6\'4f\'a4\'75\'a1\'47\'a5\'e6\'b5\'b9
+\f0 AI
+\f1 \'ac\'d9\'ae\'c9\'ac\'d9\'a4\'4f
+\f0 </h1>\
+        <p class="slide-text" style="font-size: 1.5rem;">\
+            
+\f1 \'a8\'d2\'a6\'70\'a1\'47\'b8\'ea\'ae\'c6\'be\'e3\'b2\'7a\'a1\'42\'aa\'ec\'a8\'42\'ba\'4b\'ad\'6e\'a1\'42\'c2\'bd\'c4\'b6\'a1\'42\'ae\'e6\'a6\'a1\'c2\'e0\'b4\'ab\'b5\'a5
+\f0 ...\
+        </p>\
+        <i class="fas fa-cogs fa-spin" style="font-size: 4rem; margin-top: 2rem; color: #3498db;"></i>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55358 \u56784 
+\f0  
+\f1 \'ba\'eb\'b7\'c7\'a7\'50\'c2\'5f\'af\'75\'b0\'b0\'a1\'47
+\f0 <strong style="color: #FFD700; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">
+\f1 \'a1\'75\'a4\'48\'b8\'a3\'a1\'76
+\f0 </strong>
+\f1 \'b5\'4c\'aa\'6b\'b3\'51\'a8\'fa\'a5\'4e
+\f0 </h1>\
+        <p class="slide-text" style="font-size: 1.5rem;">\
+            AI 
+\f1 \'a5\'69\'af\'e0\'b2\'a3\'a5\'cd\'a1\'75\'a4\'db\'c4\'b1\'a1\'76\'a9\'ce\'a4\'a3\'b7\'c7\'bd\'54\'b8\'ea\'b0\'54\'a1\'41\'b0\'c8\'a5\'b2\'b6\'69\'a6\'e6\'a8\'c6\'b9\'ea\'ac\'64\'ae\'d6\'bb\'50\'a7\'e5\'a7\'50\'a9\'ca\'ab\'e4\'a6\'d2\'a1\'49
+\f0 \
+        </p>\
+        <i class="fas fa-brain" style="font-size: 4rem; margin-top: 2rem; color: #e74c3c;"></i>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h2 class="slide-subtitle" style="font-size: 2rem;">II. Gemini
+\f1 \'b0\'5f\'a4\'e2\'a6\'a1
+\f0  
+\f2 \uc0\u55357 \u56960 
+\f0 </h2>\
+        <a href="https://gemini.google.com/u/2/app" target="_blank" class="info-card info-card-purple" style="font-size: 1.8rem; padding: 1rem 2rem; margin-top: 2rem;">\
+            Gemini <i class="fas fa-external-link-alt"></i>\
+        </a>\
+        <p class="slide-text" style="margin-top: 2rem;">
+\f1 \'c2\'49\'c0\'bb\'a4\'57\'a4\'e8\'ab\'f6\'b6\'73\'a1\'41\'b6\'7d\'a9\'6c\'b1\'7a\'aa\'ba
+\f0  Gemini 
+\f1 \'a4\'a7\'ae\'c8\'a1\'49
+\f0 </p>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">1. Gemini
+\f1 \'a4\'b6\'ad\'b1\'a4\'40\'a5\'d8\'c1\'41\'b5\'4d
+\f0 </h1>\
+        <p class="slide-text">
+\f1 \'b1\'b4\'af\'c1
+\f0  Gemini 
+\f1 \'aa\'ba\'a8\'cf\'a5\'ce\'aa\'cc\'a4\'b6\'ad\'b1\'a1\'41\'bc\'f4\'b1\'78\'a6\'55\'b6\'b5\'a5\'5c\'af\'e0\'bb\'50\'b3\'5d\'a9\'77\'a1\'43
+\f0 </p>\
+        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">\
+            <a href="https://gemini.google.com/u/2/app" target="_blank" class="info-card" style="font-size: 1.2rem;">\
+                Gemini
+\f1 \'a4\'b6\'ad\'b1\'bb\'50\'b3\'5d\'a9\'77
+\f0  <i class="fas fa-search"></i>\
+            </a>\
+            <a href="https://gemini.google.com/u/2/gems/view" target="_blank" class="info-card info-card-green" style="font-size: 1.2rem;">\
+                
+\f1 \'c0\'b3\'a5\'ce\'b5\'7b\'a6\'a1
+\f0 @ <i class="fas fa-puzzle-piece"></i>\
+            </a>\
+        </div>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55356 \u57217 
+\f0  
+\f1 \'a5\'49\'b6\'4f\'aa\'a9\'a1\'47\'b6\'52\'a4\'40\'b1\'6f\'a4\'54
+\f0  (Google One AI Pro)</h1>\
+        <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 2rem; flex-wrap: wrap; gap: 1rem;">\
+            <div class="text-center p-4 m-2 bg-opacity-25 bg-white rounded-lg shadow-xl" style="min-width: 200px; flex-basis: 28%;">\
+                <i class="fas fa-lightbulb fa-3x mb-2 text-yellow-400"></i>\
+                <h3 class="text-xl font-semibold">NotebookLM Pro</h3>\
+                <p class="text-sm">
+\f1 \'b6\'69\'b6\'a5\'ac\'e3\'a8\'73\'bb\'50\'bc\'67\'a7\'40
+\f0 </p>\
+            </div>\
+            <div class="text-2xl font-bold mx-2 text-gray-300 self-center">+</div>\
+            <div class="text-center p-4 m-2 bg-opacity-25 bg-white rounded-lg shadow-xl" style="min-width: 200px; flex-basis: 28%;">\
+                <i class="fas fa-brain fa-3x mb-2 text-purple-400"></i>\
+                <h3 class="text-xl font-semibold">Gemini Pro</h3>\
+                <p class="text-sm">
+\f1 \'b3\'cc\'b1\'6a\'a4\'6a\'aa\'ba
+\f0  AI 
+\f1 \'bc\'d2\'ab\'ac
+\f0 </p>\
+            </div>\
+             <div class="text-2xl font-bold mx-2 text-gray-300 self-center">+</div>\
+            <div class="text-center p-4 m-2 bg-opacity-25 bg-white rounded-lg shadow-xl" style="min-width: 200px; flex-basis: 28%;">\
+                <i class="fas fa-hdd fa-3x mb-2 text-blue-400"></i>\
+                <h3 class="text-xl font-semibold">2TB Google One</h3>\
+                <p class="text-sm">
+\f1 \'b6\'b3\'ba\'dd\'c0\'78\'a6\'73\'aa\'c5\'b6\'a1
+\f0 </p>\
+            </div>\
+        </div>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55357 \u56462 
+\f0  
+\f1 \'a4\'c9\'af\'c5
+\f0 Gemini Pro
+\f1 \'a4\'e8\'ae\'d7\'c0\'75\'b4\'66
+\f0  
+\f2 \uc0\u55357 \u56462 
+\f0 </h1>\
+        <p class="slide-text" style="font-size: 1.5rem;">\
+            
+\f1 \'b8\'d1\'c2\'ea\'a7\'f3\'b1\'6a\'a4\'6a\'aa\'ba\'a5\'5c\'af\'e0\'a1\'41\'b4\'a3\'a4\'c9\'b1\'7a\'aa\'ba\'a5\'cd\'b2\'a3\'a4\'4f\'a1\'49
+\f0 \
+        </p>\
+        <i class="fas fa-rocket" style="font-size: 4rem; margin-top: 2rem; color: #9b59b6;"></i>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55357 \u56960 
+\f0  
+\f1 \'ad\'d3\'a4\'48\'b1\'62\'b8\'b9\'a4\'c9\'af\'c5
+\f0  
+\f2 \uc0\u55357 \u56960 
+\f0 </h1>\
+        <p class="slide-text">
+\f1 \'ae\'da\'be\'da\'b1\'7a\'aa\'ba\'bb\'dd\'a8\'44\'a1\'41\'bf\'ef\'be\'dc\'be\'41\'a6\'58\'aa\'ba\'a4\'c9\'af\'c5\'b8\'f4\'ae\'7c\'a1\'47
+\f0 </p>\
+        <div style="margin-top: 2rem; display: flex; flex-direction: column; align-items: center; gap: 1.5rem;">\
+             <a href="https://one.google.com/u/2/explore-plan/gemini-advanced?utm_source=gemini&utm_medium=web&utm_campaign=sidenav_evo&g1_landing_page=65" target="_blank" class="info-card info-card-green" style="font-size: 1.2rem; min-width: 280px;">\
+                
+\f1 \'ad\'ba\'a6\'b8\'a4\'c9\'af\'c5
+\f0 Google One <i class="fas fa-star"></i>\
+            </a>\
+            <a href="https://drive.google.com/file/d/1IXXpF-R88DYpxC3jGXL0cSClp5KN5Ikq/view?usp=drive_link" target="_blank" class="info-card info-card-purple" style="font-size: 1.2rem; min-width: 280px;">\
+                
+\f1 \'a5\'49\'b6\'4f\'aa\'a9
+\f0 One
+\f1 \'a6\'41\'a4\'c9\'af\'c5
+\f0  <i class="fas fa-level-up-alt"></i>\
+            </a>\
+        </div>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55357 \u57056 \u65039 
+\f0  One
+\f1 \'a4\'c9\'af\'c5\'bb\'d9\'c3\'aa\'b1\'c6\'b0\'a3
+\f0 /
+\f1 \'b6\'4f\'a5\'ce\'a7\'e9\'ba\'e2
+\f0  
+\f2 \uc0\u55357 \u56504 
+\f0 </h1>\
+        <div class="styled-table-container">\
+            <h3 class="slide-subtitle" style="text-align: left; color: #e0e0e0;">
+\f1 \'a4\'c9\'af\'c5\'bf\'f9\'bb\'7e\'b1\'c6\'b0\'a3
+\f0 </h3>\
+            <table class="styled-table">\
+                <thead><tr><th>
+\f1 \'b8\'d1\'a8\'4d\'a4\'e8\'aa\'6b
+\f0 </th><th>
+\f1 \'bb\'a1\'a9\'fa
+\f0 </th></tr></thead>\
+                <tbody>\
+                    <tr><td><strong>
+\f1 \'b2\'4d\'b0\'a3\'a7\'d6\'a8\'fa
+\f0 /Cookie</strong></td><td>
+\f1 \'b9\'4c\'ae\'c9\'aa\'ba\'bc\'c8\'a6\'73\'c0\'c9\'a5\'69\'af\'e0\'be\'c9\'ad\'50\'bf\'f9\'bb\'7e\'a1\'41\'a6\'b9\'ac\'b0\'ad\'ba\'ad\'6e\'b9\'c1\'b8\'d5\'a8\'42\'c6\'4a\'a1\'43
+\f0 </td></tr>\
+                    <tr><td><strong>
+\f1 \'a7\'f3\'b4\'ab\'c2\'73\'c4\'fd\'be\'b9
+\f0 /
+\f1 \'b5\'4c\'b2\'aa\'bc\'d2\'a6\'a1
+\f0 </strong></td><td>
+\f1 \'b1\'c6\'b0\'a3\'c2\'58\'a5\'52\'a5\'5c\'af\'e0\'a9\'ce\'af\'53\'a9\'77\'b3\'5d\'a9\'77\'aa\'ba\'a4\'7a\'c2\'5a\'a1\'43
+\f0 </td></tr>\
+                    <tr><td><strong>
+\f1 \'c0\'cb\'ac\'64\'ba\'f4\'b8\'f4
+\f0 /
+\f1 \'ad\'ab\'b7\'73\'b5\'6e\'a4\'4a
+\f0 </strong></td><td>
+\f1 \'bd\'54\'ab\'4f\'b3\'73\'bd\'75\'c3\'ad\'a9\'77\'a1\'41\'a8\'c3\'b9\'c1\'b8\'d5\'ad\'ab\'b7\'73\'b5\'6e\'a4\'4a
+\f0 Google
+\f1 \'b1\'62\'a4\'e1\'a1\'43
+\f0 </td></tr>\
+                    <tr><td><strong>
+\f1 \'b0\'b1\'a5\'ce
+\f0 VPN/
+\f1 \'a5\'4e\'b2\'7a\'a6\'f8\'aa\'41\'be\'b9
+\f0 </strong></td><td>VPN
+\f1 \'a9\'ce\'a5\'4e\'b2\'7a\'a6\'f8\'aa\'41\'be\'b9\'a6\'b3\'ae\'c9\'b7\'7c\'bc\'76\'c5\'54
+\f0 Google
+\f1 \'aa\'41\'b0\'c8\'b3\'73\'bd\'75\'a1\'43
+\f0 </td></tr>\
+                    <tr><td><strong>
+\f1 \'c0\'cb\'ac\'64\'a5\'49\'b4\'da\'a4\'e8\'a6\'a1
+\f0 </strong></td><td><strong class="highlight-text">
+\f1 \'bd\'54\'bb\'7b\'b1\'7a
+\f0 Google
+\f1 \'b1\'62\'a4\'e1\'b3\'5d\'a9\'77\'aa\'ba\'a5\'49\'b4\'da\'a4\'e8\'a6\'a1\'a6\'b3\'ae\'c4\'a1\'43
+\f0 </strong></td></tr>\
+                    <tr><td><strong>
+\f1 \'aa\'bd\'b1\'b5\'ab\'65\'a9\'b9\'b3\'5d\'a9\'77\'ad\'b6\'ad\'b1
+\f0 </strong></td><td>
+\f1 \'aa\'bd\'b1\'b5\'b1\'71
+\f0  <code>one.google.com</code> 
+\f1 \'a9\'ce
+\f0  <code>gemini.google.com</code> 
+\f1 \'b6\'69\'a6\'e6\'be\'de\'a7\'40\'a1\'43
+\f0 </td></tr>\
+                </tbody>\
+            </table>\
+            <h3 class="slide-subtitle" style="text-align: left; color: #e0e0e0; margin-top: 2rem;">
+\f1 \'b6\'4f\'a5\'ce\'ad\'70\'ba\'e2\'bb\'a1\'a9\'fa
+\f0 </h3>\
+             <table class="styled-table">\
+                <tbody>\
+                    <tr><td><strong>
+\f1 \'b6\'4f\'a5\'ce\'ad\'70\'ba\'e2\'a4\'e8\'a6\'a1
+\f0 </strong></td><td>
+\f1 \'b7\'ed\'b1\'7a\'b1\'71\'b2\'7b\'a6\'b3\'a6\'7e\'c3\'ba\'a4\'e8\'ae\'d7\'a4\'c9\'af\'c5\'ae\'c9\'a1\'41
+\f0 Google
+\f1 \'b7\'7c
+\f0  <strong class="highlight-text">
+\f1 \'ab\'f6\'a4\'f1\'a8\'d2\'ad\'70\'ba\'e2\'ad\'ec\'a4\'e8\'ae\'d7\'aa\'ba\'a5\'bc\'a8\'cf\'a5\'ce\'bb\'f9\'ad\'c8
+\f0 </strong>
+\f1 \'a1\'41\'a8\'c3\'a5\'ce\'a8\'d3
+\f0  <strong class="highlight-text">
+\f1 \'a7\'e9\'a9\'e8\'b7\'73\'a4\'e8\'ae\'d7\'aa\'ba\'b6\'4f\'a5\'ce
+\f0 </strong>
+\f1 \'a1\'43
+\f0 </td></tr>\
+                    <tr><td><strong>
+\f1 \'a4\'c9\'af\'c5\'a5\'cd\'ae\'c4\'ae\'c9\'b6\'a1
+\f0 </strong></td><td>
+\f1 \'a4\'40\'af\'eb\'b1\'a1\'aa\'70\'a4\'55\'a1\'41\'a4\'c9\'af\'c5\'b7\'7c
+\f0  <strong class="highlight-text">
+\f1 \'a5\'df\'a7\'59\'a5\'cd\'ae\'c4
+\f0 </strong>
+\f1 \'a1\'41\'b1\'7a\'b0\'a8\'a4\'57\'b4\'4e\'af\'e0\'a8\'cf\'a5\'ce\'b7\'73\'a5\'5c\'af\'e0\'a1\'43
+\f0 </td></tr>\
+                    <tr><td><strong>
+\f1 \'ad\'71\'be\'5c\'a4\'e8\'ae\'d7
+\f0 </strong></td><td>
+\f1 \'bd\'d0\'aa\'60\'b7\'4e\'a1\'41
+\f0 Gemini Pro 
+\f1 \'a5\'5c\'af\'e0\'ac\'4f\'a5\'5d\'a7\'74\'a6\'62\'af\'53\'a9\'77\'b5\'a5\'af\'c5\'aa\'ba
+\f0  <strong class="highlight-text">Google One AI 
+\f1 \'a4\'e8\'ae\'d7
+\f0 </strong>
+\f1 \'a4\'a4\'a1\'43
+\f0 </td></tr>\
+                </tbody>\
+            </table>\
+        </div>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55356 \u57241 \u65039 
+\f0  Gemini Pro
+\f1 \'c0\'b3\'a5\'ce\'a4\'e2\'a7\'e2\'a4\'e2\'b9\'ea\'a7\'40
+\f0 1 
+\f2 \uc0\u55357 \u56541 
+\f0 </h1>\
+        <p class="slide-text">
+\f1 \'bb\'79\'ad\'b5\'bf\'e9\'a4\'4a\'bb\'50\'ba\'4b\'ad\'6e\'c0\'b3\'a5\'ce
+\f0 </p>\
+        <div style="margin-top: 2rem; display: flex; flex-direction: column; align-items: center; gap: 1.5rem;">\
+            <a href="https://gemini.google.com/u/1/app/99d6f5146e232c08" target="_blank" class="info-card" style="font-size: 1.2rem; min-width: 280px; background-color: #e67e22;">\
+                
+\f1 \'a4\'a4\'a4\'e5\'bb\'79\'ad\'b5\'ba\'4b\'ad\'6e
+\f0  <i class="fas fa-microphone-alt"></i>\
+            </a>\
+            <a href="https://gemini.google.com/u/1/app/69f68bc044622a3b" target="_blank" class="info-card" style="font-size: 1.2rem; min-width: 280px; background-color: #3498db;">\
+                Audio Overview <i class="fas fa-headphones"></i>\
+            </a>\
+        </div>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title prominent-title" style="color: #82E0AA;">\uc0\u9749  
+\f1 \'a5\'f0\'ae\'a7\'a4\'40\'a4\'55
+\f0  \uc0\u9749 </h1>\
+        <p class="slide-text" style="font-size: 1.3rem;">
+\f1 \'a6\'f9\'ae\'69\'a4\'40\'a4\'55\'a1\'41\'ac\'dd\'ac\'dd\'a6\'b3\'bd\'ec\'aa\'ba\'b3\'5d\'ad\'70\'a1\'49
+\f0 </p>\
+        <div class="canva-embed-container">\
+            <iframe loading="lazy" src="https://www.canva.com/design/DAGpmoZycxc/1eCErsPvDlYT2nd6WdBb4A/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>\
+        </div>\
+         <a href="https://www.canva.com/design/DAGpmoZycxc/1eCErsPvDlYT2nd6WdBb4A/view?utm_content=DAGpmoZycxc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he5df4aacd9" target="_blank" class="info-card" style="margin-top: 1rem; background-color: #17a2b8;">\
+            
+\f1 \'b5\'4c\'aa\'6b\'c5\'e3\'a5\'dc\'a1\'48\'c2\'49\'a6\'b9\'ac\'64\'ac\'dd
+\f0  <i class="fas fa-external-link-alt"></i>\
+        </a>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55356 \u57260 
+\f0  Gemini Pro
+\f1 \'c0\'b3\'a5\'ce\'a4\'e2\'a7\'e2\'a4\'e2\'b9\'ea\'a7\'40
+\f0 2 
+\f2 \uc0\u55356 \u57256 
+\f0 </h1>\
+        <p class="slide-text">
+\f1 \'bc\'76\'a4\'f9\'a5\'cd\'a6\'a8\'bb\'50
+\f0  AI Studio 
+\f1 \'b1\'b4\'af\'c1
+\f0 </p>\
+        <div style="margin-top: 2rem; display: flex; flex-direction: column; align-items: center; gap: 1.5rem;">\
+            <a href="https://gemini.google.com/u/1/app/0e395892b178e72d" target="_blank" class="info-card info-card-red" style="font-size: 1.2rem; min-width: 280px;">\
+                Gemini
+\f1 \'bc\'76\'a4\'f9
+\f0  <i class="fas fa-video"></i>\
+            </a>\
+            <a href="https://aistudio.google.com/generate-video" target="_blank" class="info-card info-card-purple" style="font-size: 1.2rem; min-width: 280px;">\
+                Google AI Studio <i class="fas fa-flask"></i>\
+            </a>\
+            <a href="https://drive.google.com/file/d/1n1yxN8Jd5Dwokegaa2Kte_EKv-3sNzJJ/view?usp=drive_link" target="_blank" class="info-card" style="font-size: 1.2rem; min-width: 280px; background-color: #27ae60;">\
+                
+\f1 \'a5\'78\'bb\'79\'c1\'bf\'bd\'5a\'a5\'cd\'bc\'76\'a4\'f9
+\f0  <i class="fas fa-film"></i>\
+            </a>\
+        </div>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55357 \u56481 
+\f0  Gemini Pro
+\f1 \'c0\'b3\'a5\'ce\'a4\'e2\'a7\'e2\'a4\'e2\'b9\'ea\'a7\'40
+\f0 3 
+\f2 \uc0\u9997 \u65039 
+\f0 </h1>\
+        <p class="slide-text">
+\f1 \'b1\'71\'b7\'51\'aa\'6b\'a8\'ec\'b9\'ea\'bd\'ee\'a1\'41\'c5\'e9\'c5\'e7
+\f0  AI 
+\f1 \'a8\'f3\'a7\'40\'aa\'ba\'ab\'c2\'a4\'4f
+\f0 </p>\
+        <div style="margin-top: 2rem; display: flex; flex-direction: column; align-items: center; gap: 1.5rem; width: 100%;">\
+            <a href="https://gemini.google.com/u/1/app/e225216458fa97c9" target="_blank" class="info-card info-card-green" style="font-size: 1.2rem; min-width: 280px;">\
+                Gemini Canvas: AI
+\f1 \'a7\'55\'a7\'f0\'b7\'51\'aa\'6b\'a6\'a8\'af\'75
+\f0  <i class="fas fa-paint-brush"></i>\
+            </a>\
+            <div class="text-left p-4 mt-4 bg-opacity-25 bg-black rounded-lg shadow-inner" style="max-width: 600px; width: 100%;">\
+                <h3 class="text-xl font-semibold text-yellow-300">Prompt
+\f1 \'bd\'6d\'b2\'df
+\f0 :</h3>\
+                <p class="text-sm mt-2 text-gray-200">
+\f1 \'bd\'d0\'c0\'b0\'a7\'da\'b3\'5d\'ad\'70\'a4\'40\'ad\'d3
+\f0 \'93<strong class="highlight-text">
+\f1 \'a4\'6a\'a6\'d2\'ad\'cb\'bc\'c6\'ad\'70\'a4\'e9
+\f0 </strong>\'94
+\f1 \'a4\'ac\'b0\'ca\'a6\'a1\'ba\'f4\'ad\'b6\'a1\'41\'ba\'f4\'ad\'b6\'a4\'a4\'a6\'b3\'a4\'40\'ad\'d3\'a4\'e9\'b4\'c1\'bf\'ef\'b6\'b5\'b0\'cf\'b6\'f4
+\f0 \'93
+\f1 \'a4\'6a\'a6\'d2\'a4\'e9\'b4\'c1
+\f0 \'94
+\f1 \'a1\'41\'a6\'b3\'a4\'40\'ad\'d3\'a4\'e9\'be\'e4\'a5\'69\'a5\'48\'c2\'49\'bf\'ef\'a5\'bf\'bd\'54\'aa\'ba\'a6\'7e\'a4\'eb\'a4\'e9\'a1\'41\'c2\'49\'bf\'ef\'ab\'e1\'a6\'41\'a4\'55\'a4\'e8\'c0\'48\'a7\'59\'a7\'65\'b2\'7b\'b6\'5a\'c2\'f7\'a4\'6a\'a6\'d2\'aa\'ba\'ad\'cb\'bc\'c6\'a4\'e9\'bc\'c6\'a1\'43\'bd\'d0\'a6\'50\'ae\'c9\'b1\'4e
+\f0 preview
+\f1 \'a4\'b6\'ad\'b1\'a7\'65\'b2\'7b\'a4\'e8\'ab\'4b\'a7\'da\'c0\'cb\'b5\'f8
+\f0 </p>\
+            </div>\
+        </div>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55357 \u56960 
+\f0  
+\f1 \'ba\'f4\'ad\'b6\'b5\'6f\'a5\'ac
+\f0  
+\f2 \uc0\u55357 \u56960 
+\f0 </h1>\
+        <p class="slide-text">
+\f1 \'b5\'bd\'a5\'ce\'a4\'75\'a8\'e3\'a1\'41\'b1\'4e\'b1\'7a\'aa\'ba\'b3\'d0\'a7\'40\'b5\'6f\'a7\'47\'a8\'ec\'a5\'fe\'a5\'40\'ac\'c9\'a1\'49
+\f0 </p>\
+        <div style="margin-top: 2rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem;">\
+             <a href="https://www.canva.com/ai" target="_blank" class="info-card" style="background-color: #8A2BE2;">\
+                Canva <i class="fas fa-palette"></i>\
+            </a>\
+            <a href="https://www.canva.com/ai/code/thread/5094686e-3613-40de-b846-af97bd346d50" target="_blank" class="info-card" style="background-color: #5F9EA0;">\
+                Canva AI <i class="fas fa-magic"></i>\
+            </a>\
+            <a href="https://gloria5.my.canva.site/dagpf5spqzc" target="_blank" class="info-card" style="background-color: #FF6347;">\
+                
+\f1 \'b5\'6f\'a5\'ac\'ba\'f4\'af\'b8
+\f0  <i class="fas fa-globe"></i>\
+            </a>\
+        </div>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55356 \u57256 
+\f0  
+\f1 \'ae\'fc\'b3\'f8\'b2\'a3\'a5\'cd\'be\'b9
+\f0  
+\f2 \uc0\u55356 \u57256 
+\f0 </h1>\
+        <p class="slide-text">
+\f1 \'a4\'40\'c1\'e4\'a5\'cd\'a6\'a8\'a6\'55\'ba\'d8\'ad\'b7\'ae\'e6\'aa\'ba\'b5\'f8\'c4\'b1\'b3\'d0\'a7\'40\'a1\'49
+\f0 </p>\
+        <div style="margin-top: 2rem; display: flex; flex-direction: column; align-items: center; gap: 1.5rem;">\
+            <a href="https://gemini.google.com/u/1/app/66f992901d41d913" target="_blank" class="info-card" style="font-size: 1.2rem; min-width: 320px; background-color: #e83e8c;">\
+                Gloria
+\f1 \'ae\'fc\'b3\'f8\'b2\'a3\'a5\'cd\'be\'b9
+\f0  <i class="fas fa-star"></i>\
+            </a>\
+            <a href="https://gemini.google.com/u/1/app/0b03e933d94a06c9" target="_blank" class="info-card" style="font-size: 1.2rem; min-width: 320px; background-color: #9b59b6;">\
+                
+\f1 \'a9\'5f\'a4\'db\'ae\'fc\'b3\'f8\'b2\'a3\'a5\'cd\'be\'b9
+\f0  <i class="fas fa-dragon"></i>\
+            </a>\
+            <a href="https://gemini.google.com/u/1/app/df30085bd1f46a33" target="_blank" class="info-card" style="font-size: 1.2rem; min-width: 320px; background-color: #3498db;">\
+                
+\f1 \'a4\'e9\'a8\'74\'bb\'b4\'a4\'70\'bb\'a1\'ab\'ca\'ad\'b1\'b2\'a3\'a5\'cd\'be\'b9
+\f0  <i class="fas fa-book"></i>\
+            </a>\
+            <a href="https://gemini.google.com/u/1/app/b1ba5a7ea1e0c6be" target="_blank" class="info-card" style="font-size: 1.2rem; min-width: 320px; background-color: #e74c3c;">\
+                
+\f1 \'a4\'6b\'a8\'e0\'ba\'a9\'b5\'65\'ab\'ca\'ad\'b1\'b2\'a3\'a5\'cd\'be\'b9
+\f0  <i class="fas fa-paint-brush"></i>\
+            </a>\
+            <a href="https://gemini.google.com/u/1/app/42a1361a67ea0542" target="_blank" class="info-card" style="font-size: 1.2rem; min-width: 320px; background-color: #f1c40f;">\
+                
+\f1 \'af\'ab\'a9\'5f\'b9\'44\'a8\'e3\'b2\'a3\'a5\'cd\'be\'b9
+\f0  <i class="fas fa-magic"></i>\
+            </a>\
+        </div>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title" style="font-size: 3.2rem;">
+\f2 \uc0\u55357 \u56907 
+\f0  Q & A 
+\f2 \uc0\u55357 \u56907 
+\f0 </h1>\
+        <div style="margin-top: 2rem;">\
+            <div class="p-4 mb-4 bg-opacity-25 bg-white rounded-lg shadow-lg">\
+                 <p class="font-semibold" style="font-size: 2.5rem; line-height: 1.4;">AI
+\f1 \'ac\'4f\'af\'ab\'a7\'55\'b2\'7a\'a1\'41
+\f0 <span class="highlight-text" style="font-size: 3rem;">
+\f1 \'a4\'48
+\f0 </span>
+\f1 \'a4\'7e\'ac\'4f\'a5\'44\'ae\'5f\'aa\'cc\'a1\'49
+\f0 </p>\
+            </div>\
+             <div class="p-4 rounded-lg shadow-lg" style="background: linear-gradient(145deg, #ff9a9e 0%, #fecfef 100%);">\
+                 <p class="font-semibold" style="font-size: 1.75rem; color: #4a148c;">\
+                    <span>\
+                        
+\f2 \uc0\u55357 \u56551 
+\f0  Email Gloria: \
+                        <a href="mailto:gloriawu98.gw@gloria-wu.com" class="underline" style="color: #4a148c; text-decoration-color: #4a148c;">gloriawu98.gw@gloria-wu.com</a>\
+                    </span>\
+                 </p>\
+            </div>\
+        </div>\
+    </div>\
+</section>\
+\
+<section class="presentation-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <h1 class="slide-title">
+\f2 \uc0\u55357 \u56541 
+\f0  
+\f1 \'a6\'5e\'f5\'58\'aa\'ed
+\f0  
+\f2 \uc0\u55357 \u56541 
+\f0 </h1>\
+        <p class="slide-text" style="font-size: 1.3rem;">
+\f1 \'b1\'7a\'aa\'ba\'b7\'4e\'a8\'a3\'ac\'4f\'a7\'da\'ad\'cc\'b6\'69\'a8\'42\'aa\'ba\'b0\'ca\'a4\'4f\'a1\'49
+\f0 </p>\
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://docs.google.com/forms/d/e/1FAIpQLScqDN39vgWnUNS6CTY8oLVLitkpETUN-uzpYxd8t6FYAvkwbA/viewform" alt="
+\f1 \'a6\'5e\'f5\'58\'aa\'ed\'b3\'e6
+\f0  QR Code" style="margin: 1rem auto; border-radius: 0.5rem; display: block; background-color: white; padding: 10px;">\
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScqDN39vgWnUNS6CTY8oLVLitkpETUN-uzpYxd8t6FYAvkwbA/viewform" target="_blank" class="info-card info-card-green">\
+            
+\f1 \'b6\'f1\'bc\'67\'a6\'5e\'f5\'58\'aa\'ed\'b3\'e6
+\f0  <i class="fas fa-edit"></i>\
+        </a>\
+        <div style="margin-top: 2rem; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 2rem; display: flex; flex-direction: column; align-items: center; gap: 1rem;">\
+             <a href="https://www.facebook.com/share/p/1LN3XgYP13/" target="_blank" class="info-card" style="background-color: #1877F2; min-width: 300px;">\
+                Gloria
+\f1 \'c1\'79\'ae\'d1\'ab\'f6\'c6\'67\'a1\'cf\'a4\'c0\'a8\'c9\'a1\'cf\'b3\'71\'c3\'f6\'b1\'4b\'bb\'79
+\f0  <i class="fab fa-facebook"></i>\
+            </a>\
+             <a href="#" onclick="event.preventDefault(); this.style.display='none'; document.getElementById('passphrase').style.display='block';" class="info-card" style="background-color: #fd7e14; min-width: 300px;">\
+                
+\f1 \'b3\'71\'c3\'f6\'b1\'4b\'bb\'79
+\f0  <i class="fas fa-key"></i>\
+            </a>\
+            <div id="passphrase" style="display: none; margin-top: 1rem;" class="p-3 bg-opacity-50 bg-purple-900 rounded-lg shadow-lg">\
+                <p class="text-lg font-bold text-yellow-200">Gemini pro
+\f1 \'a6\'6e\'af\'ab
+\f0 </p>\
+            </div>\
+             <a href="#" onclick="event.preventDefault(); document.getElementById('ip-rights-notice').style.display='block'; this.style.display='none';" class="info-card" style="background-color: #b22222; min-width: 300px;">\
+                
+\f1 \'a6\'75\'c5\'40\'b4\'bc\'b0\'5d\'a4\'48\'ae\'e6\'c5\'76
+\f0  <i class="fas fa-shield-alt"></i>\
+            </a>\
+            <div id="ip-rights-notice" style="display: none; margin-top: 1rem; max-width: 600px; text-align: left;" class="p-4 bg-opacity-50 bg-black rounded-lg shadow-inner text-gray-200 space-y-2">\
+                <p>1. 
+\f1 \'b6\'f1\'a6\'5e\'f5\'58\'aa\'ed\'b3\'74\'b1\'6f
+\f0 <strong class="highlight-text">
+\f1 \'b1\'4d\'c4\'dd\'ac\'e3\'b2\'df\'c3\'d2\'ae\'d1
+\f0 </strong></p>\
+                <p>2. FB
+\f1 \'ab\'f6\'c6\'67\'a1\'cf\'a4\'c0\'a8\'c9\'a1\'cf\'af\'64\'a8\'a5
+\f0 <strong class="highlight-text">
+\f1 \'b3\'71\'c3\'f6\'b1\'4b\'bb\'79
+\f0 </strong></p>\
+                <p style="padding-left: 2em;">~
+\f1 \'c1\'bf\'ae\'76
+\f0 ms
+\f1 \'bf\'cb\'b0\'65
+\f0 <strong class="highlight-text">
+\f1 \'bc\'76\'a4\'f9\'b3\'73\'b5\'b2\'a1\'cf\'a7\'40\'ab\'7e\'a4\'c0\'a8\'c9
+\f0 </strong></p>\
+                <p>3. 
+\f1 \'a8\'d1\'bb\'50\'b7\'7c\'ae\'76\'aa\'f8\'b0\'d1\'a6\'d2\'a1\'41\'ad\'59\'bb\'dd\'a4\'de\'a5\'ce\'a4\'c0\'a8\'c9\'a1\'41\'bd\'d0\'a5\'5b\'b5\'f9
+\f0 \'93<strong class="highlight-text">
+\f1 \'b0\'d1\'a6\'d2
+\f0 Gloria
+\f1 \'a4\'c0\'a8\'c9
+\f0 </strong>\'93
+\f2 \uc0\u9829 \u65039 \u55358 \u56715 \u55357 \u56462 
+\f0 </p>\
+            </div>\
+        </div>\
+    </div>\
+</section>\
+\
+\
+<section class="presentation-slide" id="thank-you-slide" style="display: none;">\
+    <div class="slide-content animate-on-scroll">\
+        <canvas id="confetti-canvas"></canvas>\
+        <h1 class="thank-you-text mochiy-pop-font">THANK YOU!</h1>\
+        <div class="thank-you-character">
+\f2 \uc0\u55358 \u56688 
+\f0 </div>\
+        <p class="slide-text" style="font-size: 1.5rem; color: #f0f0f0; margin-top: 1.5rem;">
+\f1 \'b7\'50\'c1\'c2\'b1\'7a\'aa\'ba\'b0\'d1\'bb\'50\'a1\'49
+\f0 </p>\
+        <button onclick="window.print()" class="info-card" style="margin-top: 2rem; background-color: #6c757d;">\
+            <i class="fas fa-print"></i> 
+\f1 \'a6\'43\'a6\'4c\'c2\'b2\'b3\'f8
+\f0 \
+        </button>\
+    </div>\
+</section>\
+\
+<div id="navigation-controls">\
+    <button id="prev-slide" title="
+\f1 \'a4\'57\'a4\'40\'b1\'69
+\f0  (
+\f1 \'a5\'aa\'bd\'62\'c0\'59
+\f0 )">\
+        <i class="fas fa-arrow-left"></i> Previous\
+    </button>\
+    <button id="next-slide" title="
+\f1 \'a4\'55\'a4\'40\'b1\'69
+\f0  (
+\f1 \'a5\'6b\'bd\'62\'c0\'59
+\f0 ) / 
+\f1 \'aa\'f0\'a6\'5e\'bc\'d0\'c3\'44\'ad\'b6
+\f0 ">\
+        Next <i class="fas fa-arrow-right"></i>\
+    </button>\
+</div>\
+\
+<div id="slide-selector-container">\
+    <select id="slide-select-dropdown" title="
+\f1 \'a7\'d6\'b3\'74\'b8\'f5\'c2\'e0\'a8\'ec\'ab\'fc\'a9\'77\'ad\'b6\'ad\'b1
+\f0 "></select>\
+</div>\
+\
+<script>\
+    document.addEventListener('DOMContentLoaded', () => \{\
+        const slides = document.querySelectorAll('.presentation-slide');\
+        const prevButton = document.getElementById('prev-slide');\
+        const nextButton = document.getElementById('next-slide');\
+        const slideSelectDropdown = document.getElementById('slide-select-dropdown'); \
+        let currentSlideIndex = 0;\
+        \
+        const framerAnimator = window.motion; \
+\
+        const confettiCanvas = document.getElementById('confetti-canvas');\
+        let confettiCtx = confettiCanvas ? confettiCanvas.getContext('2d') : null;\
+        let confettiParticles = [];\
+        let confettiAnimationId = null;\
+\
+        const confettiColors = ["#f94144", "#f3722c", "#f8961e", "#f9c74f", "#90be6d", "#43aa8b", "#577590", "#277da1"];\
+\
+        function Particle(x, y, size, color, velocity) \{\
+            this.x = x; this.y = y; this.size = size; this.color = color;\
+            this.velocity = velocity; this.opacity = 1;\
+            this.rotation = Math.random() * 360;\
+            this.angularVelocity = (Math.random() - 0.5) * 0.1;\
+        \}\
+\
+        Particle.prototype.draw = function() \{\
+            if (!confettiCtx) return;\
+            confettiCtx.save();\
+            confettiCtx.translate(this.x + this.size / 2, this.y + this.size / 2);\
+            confettiCtx.rotate(this.rotation);\
+            confettiCtx.globalAlpha = this.opacity;\
+            confettiCtx.fillStyle = this.color;\
+            confettiCtx.fillRect(-this.size / 2, -this.size / 2, this.size, this.size * 1.5);\
+            confettiCtx.restore();\
+        \};\
+\
+        Particle.prototype.update = function() \{\
+            this.x += this.velocity.x; this.y += this.velocity.y;\
+            this.velocity.y += 0.05; this.opacity -= 0.008;\
+            this.rotation += this.angularVelocity;\
+            if (this.opacity < 0) this.opacity = 0;\
+        \};\
+\
+        function createConfetti() \{\
+            if (!confettiCanvas || !confettiCtx) return;\
+            const particleCount = 150; \
+            const centerX = confettiCanvas.width / 2;\
+            for (let i = 0; i < particleCount; i++) \{\
+                const size = Math.random() * 8 + 4;\
+                const color = confettiColors[Math.floor(Math.random() * confettiColors.length)];\
+                const velocity = \{ x: (Math.random() - 0.5) * 8, y: -(Math.random() * 6 + 4) \};\
+                const x = centerX + (Math.random() - 0.5) * (confettiCanvas.width * 0.6);\
+                const y = Math.random() * 50 - 20;\
+                confettiParticles.push(new Particle(x, y, size, color, velocity));\
+            \}\
+        \}\
+\
+        function animateConfetti() \{\
+            if (!confettiCanvas || !confettiCtx) return;\
+            confettiCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);\
+            confettiParticles.forEach((particle, index) => \{\
+                particle.update(); particle.draw();\
+                if (particle.opacity <= 0 || particle.y > confettiCanvas.height) confettiParticles.splice(index, 1);\
+            \});\
+            if (confettiParticles.length > 0) confettiAnimationId = requestAnimationFrame(animateConfetti);\
+            else \{\
+                if (confettiCtx) confettiCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);\
+                cancelAnimationFrame(confettiAnimationId); confettiAnimationId = null;\
+            \}\
+        \}\
+\
+        function startConfetti() \{\
+            if (!confettiCanvas || !confettiCtx) return;\
+            const slideContent = confettiCanvas.parentElement;\
+            if (slideContent) \{\
+                confettiCanvas.width = slideContent.offsetWidth;\
+                confettiCanvas.height = slideContent.offsetHeight;\
+            \}\
+            confettiParticles = []; createConfetti();\
+            if (!confettiAnimationId) animateConfetti();\
+        \}\
+\
+        function stopConfetti() \{\
+            if (confettiAnimationId) \{ cancelAnimationFrame(confettiAnimationId); confettiAnimationId = null; \}\
+            confettiParticles = [];\
+            if (confettiCtx && confettiCanvas) confettiCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);\
+        \}\
+\
+        function animateElementsInSlide(slide) \{\
+            const elementsToAnimate = slide.querySelectorAll('.animate-on-scroll');\
+            elementsToAnimate.forEach(element => \{\
+                const delay = parseFloat(element.getAttribute('data-delay')) || 0;\
+                if (framerAnimator && typeof framerAnimator.set === 'function') framerAnimator.set(element, \{ opacity: 0, y: 50 \});\
+                else \{ element.style.opacity = 0; element.style.transform = 'translateY(50px)';\}\
+                if (framerAnimator && typeof framerAnimator.animate === 'function') framerAnimator.animate(element, \{ opacity: 1, y: 0 \}, \{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94], delay: delay \});\
+                else \{ setTimeout(() => \{ element.style.transition = `opacity 0.7s ease-out $\{delay\}s, transform 0.7s ease-out $\{delay\}s`; element.style.opacity = 1; element.style.transform = 'translateY(0px)'; \}, 50); \}\
+            \});\
+        \}\
+        \
+        function populateSlideSelector() \{\
+            if (!slideSelectDropdown) return;\
+            slideSelectDropdown.innerHTML = ''; \
+            slides.forEach((slide, index) => \{\
+                const option = document.createElement('option');\
+                option.value = index;\
+                let titleElement = slide.querySelector('.slide-title');\
+                let slideTitleText = `
+\f1 \'b2\'c4
+\f0  $\{index + 1\} 
+\f1 \'ad\'b6
+\f0 `;\
+                if (titleElement) \{\
+                    let rawTitle = titleElement.textContent.trim().replace(/\\s+/g, ' ');\
+                    if (rawTitle.length > 20) \{ \
+                        rawTitle = rawTitle.substring(0, 18) + '...';\
+                    \}\
+                    if(rawTitle) slideTitleText += `: $\{rawTitle\}`;\
+                \}\
+                option.textContent = slideTitleText;\
+                slideSelectDropdown.appendChild(option);\
+            \});\
+        \}\
+\
+        function showSlide(index) \{\
+            slides.forEach((slide, i) => \{\
+                slide.style.display = 'none'; \
+                if (slide.id === 'thank-you-slide' && i !== index) stopConfetti();\
+            \});\
+            const currentSlide = slides[index];\
+            if (currentSlide) \{\
+                currentSlide.style.display = 'flex'; \
+                requestAnimationFrame(() => \{ \
+                    animateElementsInSlide(currentSlide);\
+                    if (currentSlide.id === 'thank-you-slide') setTimeout(startConfetti, 100); \
+                \});\
+            \}\
+            currentSlideIndex = index; \
+            if (slideSelectDropdown) \{ \
+                slideSelectDropdown.value = currentSlideIndex;\
+            \}\
+            updateNavigationButtons(); \
+        \}\
+\
+        function updateNavigationButtons() \{\
+            prevButton.disabled = currentSlideIndex === 0;\
+\
+            const nextButtonIcon = nextButton.querySelector('i');\
+            let nextButtonTextNode = Array.from(nextButton.childNodes).find(node => node.nodeType === Node.TEXT_NODE && node.nodeValue.trim() !== '');\
+\
+            if (currentSlideIndex === slides.length - 1) \{ // Check if it's the last slide\
+                nextButtonTextNode.nodeValue = '
+\f1 \'aa\'f0\'a6\'5e\'bc\'d0\'c3\'44\'ad\'b6
+\f0  ';\
+                nextButtonIcon.className = 'fas fa-home';\
+                nextButton.disabled = false;\
+                nextButton.classList.add('return-to-title'); \
+            \} else \{\
+                nextButtonTextNode.nodeValue = 'Next ';\
+                nextButtonIcon.className = 'fas fa-arrow-right';\
+                nextButton.disabled = false;\
+                nextButton.classList.remove('return-to-title');\
+            \}\
+\
+            if (currentSlideIndex === slides.length - 1 && nextButton.classList.contains('default-next')) \{\
+                 nextButton.disabled = true; // This case should not be hit if logic is right\
+            \}\
+        \}\
+        \
+        prevButton.addEventListener('click', () => \{ if (currentSlideIndex > 0) showSlide(currentSlideIndex - 1); \});\
+        \
+        nextButton.addEventListener('click', () => \{\
+            if (currentSlideIndex === slides.length - 1) \{\
+                showSlide(0); \
+            \} else if (currentSlideIndex < slides.length - 1) \{\
+                showSlide(currentSlideIndex + 1);\
+            \}\
+        \});\
+\
+        if (slideSelectDropdown) \{\
+            slideSelectDropdown.addEventListener('change', (event) => \{\
+                const selectedIndex = parseInt(event.target.value, 10);\
+                if (!isNaN(selectedIndex)) \{\
+                    showSlide(selectedIndex);\
+                \}\
+            \});\
+        \}\
+\
+        document.addEventListener('keydown', (event) => \{\
+            if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') return;\
+            if (event.key === 'ArrowLeft' || event.key === 'PageUp') \{ if (!prevButton.disabled) prevButton.click(); \}\
+            else if (event.key === 'ArrowRight' || event.key === 'PageDown' || event.key === ' ') \{ \
+                event.preventDefault(); // Prevent space from scrolling the page\
+                if (!nextButton.disabled) \{\
+                    nextButton.click();\
+                \}\
+            \}\
+        \});\
+        \
+        window.addEventListener('resize', () => \{\
+            if (slides[currentSlideIndex] && slides[currentSlideIndex].id === 'thank-you-slide' && confettiCanvas && confettiCanvas.parentElement) \{\
+                 const slideContent = confettiCanvas.parentElement;\
+                 confettiCanvas.width = slideContent.offsetWidth;\
+                 confettiCanvas.height = slideContent.offsetHeight;\
+            \}\
+        \});\
+        \
+        populateSlideSelector(); \
+\
+        if (slides.length > 0) showSlide(0); \
+        else \{ \
+            prevButton.style.display = 'none'; \
+            nextButton.style.display = 'none'; \
+            if (slideSelectDropdown) slideSelectDropdown.style.display = 'none';\
+        \}\
+    \});\
+</script>\
+\
+</body>\
+</html>\
+\
+}
